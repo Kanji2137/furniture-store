@@ -1,0 +1,44 @@
+.shopByRoom {
+    &__title h1 {
+        padding-top: 4rem;
+        font-size: 5rem;
+        text-align: center;
+    }
+    &__container {
+        padding: 6rem 14rem;
+        display: grid;
+        grid-template-columns: 1fr 25px 1fr;
+        grid-template-rows: 260px 50px 25px 260px;
+    }
+
+    &__imageContainer img {
+        width: 100%;
+        object-fit: cover;
+        object-position: 100% 65%;
+    }
+    &__imageContainer {
+        display: flex;
+    }
+    &__imageContainer h1 {
+        position: absolute;
+        margin: 1rem 2rem;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+    }
+    &__image-1 {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+    &__image-2 {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    &__image-3 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    &__image-4 {
+        grid-column: 3;
+        grid-row: 2 / span 3;
+    }
+}

@@ -1,0 +1,86 @@
+.startPage {
+  height: calc(100vh - 125px);
+  background-color: #ebeae8;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.startPage__image-container {
+  flex-basis: 44vw;
+}
+.startPage__image {
+  max-height: 100%;
+}
+.startPage__text {
+  align-self: center;
+  flex-basis: 41vw;
+  line-height: 1.3;
+}
+.startPage h1 {
+  font-size: 7rem;
+  font-family: "FuturaPTHeavy", sans-serif;
+}
+.startPage__button {
+  margin-top: 3rem;
+  padding: 1rem 9.5rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1100px) {
+  .startPage__image-container {
+    flex-basis: min-content;
+    align-self: center;
+  }
+  .startPage__image {
+    max-height: 650px;
+  }
+  .startPage__text {
+    flex-basis: max-content;
+  }
+  .startPage h1 {
+    font-size: 5rem;
+  }
+  .startPage__button {
+    padding: 1rem 8.5rem;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .startPage__image {
+    max-height: 520px;
+  }
+  .startPage h1 {
+    font-size: 3.8rem;
+  }
+  .startPage__button {
+    padding: 1rem 5rem;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .startPage__image-container {
+    position: absolute;
+    right: 24px;
+    bottom: 0;
+  }
+  .startPage__image {
+    max-height: 455px;
+  }
+  .startPage__text {
+    margin-bottom: 216px;
+    z-index: 10;
+  }
+  .startPage h1 {
+    font-size: 3.8rem;
+  }
+  .startPage__button {
+    padding: 1rem 5rem;
+    font-size: 2rem;
+  }
+}
+@media (max-height: 800px) and (max-width: 600px) {
+  .startPage__image-container {
+    bottom: -40px;
+  }
+}
