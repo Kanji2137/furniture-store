@@ -2,8 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,700;1,100;1,200;1,300;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
 @import "./sassStyles/buttons.css";
+@import "./sassStyles/links.css";
 @import "./Pages/Navbar/navbar.css";
 @import "./Pages/HomePage/homePage.css";
+@font-face {
+  font-family: "FuturaPTLight";
+  src: local("FuturaPTLight"), url("./fonts/futura/FuturaPTLight.otf") format("truetype");
+}
 @font-face {
   font-family: "FuturaPTBook";
   src: local("FuturaPTBook"), url("./fonts/futura/FuturaPTBook.otf") format("truetype");

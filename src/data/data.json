@@ -1,0 +1,44 @@
+{
+    "bestsellers": [
+        {
+            "title": "Wooden small chair",
+            "price": "120 $",
+            "url": "../../../images/bestsellers/graphic-one.png"
+        },
+        {
+            "title": "Tomo side table",
+            "price": "250 $",
+            "url": "../../../images/bestsellers/graphic-two.png"
+        },
+        {
+            "title": "Tomo side table",
+            "price": "680 $",
+            "url": "../../../images/bestsellers/graphic-seven.png"
+        },
+        {
+            "title": "Tomo side table",
+            "price": "220 $",
+            "url": "../../../images/bestsellers/graphic-four.png"
+        },
+        {
+            "title": "Tomo side table",
+            "price": "1550 $",
+            "url": "../../../images/bestsellers/graphic-six.png"
+        },
+        {
+            "title": "Tomo side table",
+            "price": "750 $",
+            "url": "../../../images/bestsellers/graphic-six.png"
+        },
+        {
+            "title": "Tomo side table",
+            "price": "300 $",
+            "url": "../../../images/bestsellers/graphic-seven.png"
+        },
+        {
+            "title": "Tomo side table",
+            "price": "50 $",
+            "url": "../../../images/bestsellers/graphic-eight.png"
+        }
+    ]
+}

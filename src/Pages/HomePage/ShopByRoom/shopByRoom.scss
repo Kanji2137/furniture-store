@@ -1,8 +1,12 @@
+@import "../../../sassStyles/variables.scss";
 .shopByRoom {
+    background-color: $color-white;
     &__title h1 {
         padding-top: 4rem;
-        font-size: 5rem;
+        font-size: 3rem;
+        font-family: "FuturaPTMedium", sans-serif;
         text-align: center;
+        text-transform: uppercase;
     }
     &__container {
         padding: 6rem 14rem;
@@ -20,10 +24,21 @@
         display: flex;
     }
     &__imageContainer h1 {
+        z-index: 10;
         position: absolute;
         margin: 1rem 2rem;
         font-size: 2.2rem;
         text-transform: uppercase;
+    }
+    &__imageContainer a {
+        z-index: 10;
+        position: absolute;
+        margin: 5rem 2rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        &:focus {
+            outline: none;
+        }
     }
     &__image-1 {
         grid-column: 1;
@@ -36,9 +51,80 @@
     &__image-3 {
         grid-column: 1;
         grid-row: 4;
+        img {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
     }
     &__image-4 {
         grid-column: 3;
         grid-row: 2 / span 3;
+        img {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .shopByRoom {
+        &__title h1 {
+            font-size: 2.8rem;
+        }
+        &__container {
+            padding: 4rem 8rem;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .shopByRoom {
+        &__title h1 {
+            padding-top: 3rem;
+        }
+        &__container {
+            padding: 3rem 5rem;
+            grid-template-columns: 1fr 20px 1fr;
+            grid-template-rows: 260px 50px 20px 260px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .shopByRoom {
+        &__container {
+            padding: 3rem 3rem;
+            row-gap: 2rem;
+            grid-template-columns: 1fr;
+            grid-template-rows: 200px 200px 200px 200px;
+        }
+        &__image-1 {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        &__image-2 {
+            grid-column: 1;
+            grid-row: 2;
+        }
+        &__image-3 {
+            grid-column: 1;
+            grid-row: 3;
+        }
+        &__image-4 {
+            grid-column: 1;
+            grid-row: 4;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .shopByRoom {
+        &__title h1 {
+            font-size: 2.3rem;
+            padding-top: 2rem;
+        }
+        &__container {
+            padding: 1rem 0;
+        }
     }
 }

@@ -1,0 +1,61 @@
+.bestsellers {
+  background-color: #ffffff;
+}
+.bestsellers__title h1 {
+  padding-top: 4rem;
+  font-size: 3rem;
+  font-family: "FuturaPTMedium", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.bestsellers__container {
+  padding: 4rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.bestsellers__imageContainer {
+  background-color: #efefee;
+  display: flex;
+  position: relative;
+}
+.bestsellers__imageContainer img {
+  min-width: 200px;
+  max-width: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-self: center;
+  margin: auto;
+}
+.bestsellers__panel {
+  display: none;
+  font-size: 3.5rem;
+  position: absolute;
+  bottom: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.bestsellers__panel svg {
+  cursor: pointer;
+  padding: 0.8rem;
+  margin-left: 0.8rem;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+}
+.bestsellers__panel svg:hover {
+  background-color: #fff;
+  color: #000;
+}
+.bestsellers__imageContainer:hover .bestsellers__panel {
+  display: flex;
+}
+.bestsellers__description {
+  padding-top: 1rem;
+  text-align: center;
+}
+.bestsellers__description h2 {
+  font-family: "FuturaPTLight", sans-serif;
+}

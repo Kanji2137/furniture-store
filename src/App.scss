@@ -4,9 +4,16 @@
 
 @import "./sassStyles/variables.scss";
 @import "./sassStyles/buttons.css";
+@import "./sassStyles/links.css";
 
 @import "./Pages/Navbar/navbar.css";
 @import "./Pages/HomePage/homePage.css";
+
+@font-face {
+    font-family: "FuturaPTLight";
+    src: local("FuturaPTLight"),
+        url("./fonts/futura/FuturaPTLight.otf") format("truetype");
+}
 
 @font-face {
     font-family: "FuturaPTBook";

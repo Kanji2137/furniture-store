@@ -2,6 +2,7 @@ import React from "react";
 
 import StartPage from "./StartPage/StartPage";
 import ShopByRoom from "./ShopByRoom/ShopByRoom";
+import Bestsellers from "./Bestsellers/Bestsellers";
 
 function HomePage() {
 
@@ -9,6 +10,7 @@ function HomePage() {
         <main>
             <StartPage/>
             <ShopByRoom/>
+            <Bestsellers/>
         </main>
     )
 }

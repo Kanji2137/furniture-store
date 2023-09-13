@@ -1,0 +1,43 @@
+.link {
+    cursor: pointer;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    position: relative;
+    &::before {
+        content: "";
+    }
+    &::before, &::after {
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: currentColor;
+        top: 100%;
+        left: 0;
+        pointer-events: none;
+    }
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+.link--carpo {
+    &::before {
+        transform-origin: 0 50%;
+        transform: scale3d(0, 1, 1);
+        transition: transform 0.3s;
+    }
+    &:hover::before {
+        transform: scale3d(1, 1, 1);
+    }
+    
+    &:hover::after {
+        transform: scale3d(0, 1, 1);
+    }
+
+    &::after {
+        content: '';
+        top: calc(100% + 4px);
+        transition: transform 0.3s;
+        transform-origin: 100% 50%;
+    }
+}

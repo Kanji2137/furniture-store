@@ -11,12 +11,13 @@
 
 .nav > .nav-header {
     display: inline;
+    align-self: center;
 }
 
 .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 22px;
-    padding: 2rem 5rem;
+    padding-left: 5rem;
 
     h1 {
         display: inline-block;

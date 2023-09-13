@@ -1,0 +1,63 @@
+@import "../../../sassStyles/variables.scss";
+
+.bestsellers {
+    background-color: $color-white;
+    &__title h1 {
+        padding-top: 4rem;
+        font-size: 3rem;
+        font-family: "FuturaPTMedium", sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__container {
+        padding: 4rem;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    &__imageContainer {
+        background-color: $color-gray-1;
+        display: flex;
+        position: relative;
+        img {
+            min-width: 200px;
+            max-width: 75%;
+            object-fit: cover;
+            align-self: center;
+            margin: auto;
+        }
+    }
+    &__panel {
+        display: none;
+        font-size: 3.5rem;
+        position: absolute;
+        bottom: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        svg {
+            cursor: pointer;
+            padding: 0.8rem;
+            margin-left: 0.8rem;
+            border-radius: 4px;
+            background-color: #000;
+            color: #fff;
+        }
+        svg:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+    &__imageContainer:hover .bestsellers__panel {
+        display: flex;
+    }
+    &__description {
+        padding-top: 1rem;
+        text-align: center;
+
+        h2 {
+            font-family: 'FuturaPTLight', sans-serif;
+        }
+    }
+}

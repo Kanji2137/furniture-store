@@ -13,18 +13,22 @@ function ShopByRoom() {
             <div className="shopByRoom__container">
                 <div className="shopByRoom__imageContainer shopByRoom__image-1">
                     <h1>living room</h1>
+                    <a className="link--carpo link">SHOP NOW</a>
                     <img src={imgLiving} alt="living room" />
                 </div>
                 <div className="shopByRoom__imageContainer shopByRoom__image-2">
                     <h1>bedroom</h1>
+                    <a className="link--carpo link">SHOP NOW</a>
                     <img src={imgBedroom} alt="bedroom" />
                 </div>
                 <div className="shopByRoom__imageContainer shopByRoom__image-3">
                     <h1>bathroom</h1>
+                    <a className="link--carpo link">SHOP NOW</a>
                     <img src={imgBathroom} alt="bathroom" />
                 </div>
                 <div className="shopByRoom__imageContainer shopByRoom__image-4">
                     <h1>kitchen</h1>
+                    <a className="link--carpo link">SHOP NOW</a>
                     <img src={imgKitchen} alt="kitchen" />
                 </div>
             </div>
