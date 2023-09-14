@@ -16,12 +16,14 @@
   grid-template-rows: 1fr 1fr;
 }
 .bestsellers__imageContainer {
+  height: 200px;
   background-color: #efefee;
   display: flex;
   position: relative;
 }
 .bestsellers__imageContainer img {
   min-width: 200px;
+  max-height: 200px;
   max-width: 75%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -58,4 +60,19 @@
 }
 .bestsellers__description h2 {
   font-family: "FuturaPTLight", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .bestsellers__container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .bestsellers__container {
+    padding: 0;
+    gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }

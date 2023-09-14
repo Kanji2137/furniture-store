@@ -17,11 +17,13 @@
         grid-template-rows: 1fr 1fr;
     }
     &__imageContainer {
+        height: 200px;
         background-color: $color-gray-1;
         display: flex;
         position: relative;
         img {
             min-width: 200px;
+            max-height: 200px;
             max-width: 75%;
             object-fit: cover;
             align-self: center;
@@ -58,6 +60,25 @@
 
         h2 {
             font-family: 'FuturaPTLight', sans-serif;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .bestsellers {
+        &__container {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+    }
+}
+@media (max-width: 500px) {
+    .bestsellers {
+        &__container {
+            padding: 0;
+            gap: 0;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
         }
     }
 }

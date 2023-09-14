@@ -40,5 +40,29 @@
             "price": "50 $",
             "url": "../../../images/bestsellers/graphic-eight.png"
         }
-    ]
+    ],
+    "trends": {
+        "trends": [
+            {
+                "title": "New Collection",
+                "sub_title": "HALF&HALF CHAIRS",
+                "url": "../../../images/trends/seats.jpg"
+            },
+            {
+                "title": "Trends",
+                "sub_title": "Warm Essentials",
+                "url": "../../../images/trends/sofa.jpg"
+            }
+        ],
+        "trendsNewsletter": {
+            "trend": {
+                "description": "Living room interior ideas",
+                "url": "../../../images/trends/table.jpg"
+            },
+            "newsletter": {
+                "description": "Warm Essentials",
+                "url": "../../../images/trends/sofa.jpg"
+            }
+        }
+    }
 }

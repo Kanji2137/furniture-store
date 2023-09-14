@@ -1,0 +1,21 @@
+.trendsNews {
+    &__container{
+        display: grid;
+        grid-template-columns: 1fr 50px 1fr;
+        gap: 1rem;
+        padding: 3rem;
+        &-1 {
+            grid-column: 1 / span 2;
+            max-width: 100%;
+        }
+        &-2 {
+            max-width: 100%;
+            img {
+                height: 80%;
+            }
+        }
+    }
+    &__newsletterDescrition {
+        text-align: center;
+    }
+}

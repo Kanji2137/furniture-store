@@ -1,0 +1,43 @@
+@import '../../../sassStyles/variables.scss';
+@import './TrendAndNews/trendsNews.css';
+
+.trends {
+    background-color: $color-white;
+    &__container {
+        padding-top: 4rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    &__imageContainer {
+        max-height: 460px;
+        max-width: 600px;
+        img {
+            max-height: 100%;
+            width: 100%;
+            object-fit: cover;
+            margin: auto;
+        }
+    }
+    &__description {
+        padding: 2rem;
+        position: absolute;
+
+        h2 {
+            font-family: "FuturaPTLight", sans-serif;
+        }
+        h1 {
+            text-transform: uppercase;
+        }
+
+        a {
+            text-transform: uppercase;
+            font-family: "FuturaPTBook", sans-serif;
+        }
+    }
+
+    &__underTitle {
+        // background-color: bisque;
+    }
+}
