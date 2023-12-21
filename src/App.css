@@ -5,6 +5,8 @@
 @import "./sassStyles/links.css";
 @import "./Pages/Navbar/navbar.css";
 @import "./Pages/HomePage/homePage.css";
+@import "./Pages/Footer/footer.css";
+@import "./Pages/CatalogPage/catalogPage.css";
 @font-face {
   font-family: "FuturaPTLight";
   src: local("FuturaPTLight"), url("./fonts/futura/FuturaPTLight.otf") format("truetype");

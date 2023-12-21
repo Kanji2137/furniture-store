@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 125px;
+    height: $heightOfNavbar;
     background-color: $color-gray-1;
     text-transform: uppercase;
 }
@@ -96,7 +96,7 @@
         height: 0;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
-        top: 125px;
+        top: $heightOfNavbar;
         left: 0;
         z-index: 1000;
     }
@@ -109,7 +109,7 @@
         height: 0;
     }
     .nav > #nav-check:checked ~ .nav-links {
-        height: calc(100vh - 125px);
+        height: calc(100vh - $heightOfNavbar);
         overflow-y: auto;
     }
 }

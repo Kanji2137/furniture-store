@@ -1,7 +1,8 @@
-@import '../../../sassStyles/variables.scss';
-@import './TrendAndNews/trendsNews.css';
+@import "../../../sassStyles/variables.scss";
+@import "./TrendAndNews/trendsNews.css";
 
 .trends {
+    padding-bottom: 10rem;
     background-color: $color-white;
     &__container {
         padding-top: 4rem;
@@ -12,12 +13,15 @@
 
     &__imageContainer {
         max-height: 460px;
-        max-width: 600px;
+        z-index: 10;
         img {
             max-height: 100%;
             width: 100%;
             object-fit: cover;
             margin: auto;
+        }
+        &-1 {
+            width: 45%;
         }
     }
     &__description {
@@ -36,8 +40,19 @@
             font-family: "FuturaPTBook", sans-serif;
         }
     }
+}
 
-    &__underTitle {
-        // background-color: bisque;
+@media (max-width: 1000px) {
+    .trends {
+        &__imageContainer {
+            max-height: 390px;
+        }
+    }
+}
+@media (max-width: 500px) {
+    .trends {
+        &__imageContainer {
+            max-height: 300px;
+        }
     }
 }

@@ -1,7 +1,7 @@
 @import "../../../sassStyles/variables.scss";
 
 .startPage {
-    height: calc(100vh - 125px);
+    height: calc(100vh - $heightOfNavbar);
     background-color: $color-gray-2;
     display: flex;
     justify-content: center;

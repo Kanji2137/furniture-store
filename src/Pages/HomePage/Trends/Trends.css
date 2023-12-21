@@ -1,5 +1,6 @@
-@import './TrendAndNews/trendsNews.css';
+@import "./TrendAndNews/trendsNews.css";
 .trends {
+  padding-bottom: 10rem;
   background-color: #ffffff;
 }
 .trends__container {
@@ -10,7 +11,7 @@
 }
 .trends__imageContainer {
   max-height: 460px;
-  max-width: 600px;
+  z-index: 10;
 }
 .trends__imageContainer img {
   max-height: 100%;
@@ -18,6 +19,9 @@
   -o-object-fit: cover;
      object-fit: cover;
   margin: auto;
+}
+.trends__imageContainer-1 {
+  width: 45%;
 }
 .trends__description {
   padding: 2rem;
@@ -32,4 +36,15 @@
 .trends__description a {
   text-transform: uppercase;
   font-family: "FuturaPTBook", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .trends__imageContainer {
+    max-height: 390px;
+  }
+}
+@media (max-width: 500px) {
+  .trends__imageContainer {
+    max-height: 300px;
+  }
 }

@@ -6,7 +6,7 @@ function Trends () {
     const trends = data.trends;
     const trendsTile = (title, sub_title, url) => {
         return (
-            <div className="trends__imageContainer">
+            <div className="trends__imageContainer trends__imageContainer-1">
                 <div className="trends__description">
                     <h2>{title}</h2>
                     <h1>{sub_title}</h1>
@@ -24,8 +24,8 @@ function Trends () {
                         trendsTile(trend.title, trend.sub_title, trend.url)
                     );
                 })}
+                <TrendsAndNews/>
             </div>
-            <TrendsAndNews/>
         </section>
     );
 }

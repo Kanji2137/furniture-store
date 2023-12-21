@@ -7,9 +7,13 @@ import { LiaShoppingBagSolid } from "react-icons/lia";
 import { BsHeart } from "react-icons/bs";
 import { GoSearch } from "react-icons/go";
 
-// import Footer from "../Footer/Footer";
+import SearchBar from "../../Components/SearchBar/SearchBar";
+
+import Footer from "../Footer/Footer";
+
 
 import HomePage from "../HomePage/HomePage";
+import CatalogPage from "../CatalogPage/CatalogPage";
 // import AboutPage from "../AboutPage/AboutPage";
 // import ShopPage from "../ShopPage/ShopPage";
 // import ProductPage from "../ProductPage/ProductPage";
@@ -76,11 +80,12 @@ function Navbar() {
                         </label>
                     </div>
                     <div className="nav-links" onClick={checkHandler}>
-                        <Link to="/">Catalog</Link>
+                        <Link to="/shop">Catalog</Link>
                         <Link to="/about">Inspirations</Link>
                         <Link to="/service">About Us</Link>
-                        <Link to="/cart/shop">Contact</Link>
+                        <Link to="/contact">Contact</Link>
                     </div>
+                    <SearchBar/>
                     <div className="nav-icons">
                         <Link to="/cart/cart">
                             <BsHeart />
@@ -96,16 +101,18 @@ function Navbar() {
 
                 <Routes>
                     <Route path="/cart">
-                        <Route path="/cart/shop"/>
+
                         <Route path="/cart/pruduct" />
                         <Route path="/cart/cart"/>
                         <Route path="/cart/payment" />
                     </Route>
+                    <Route path="/shop/:searchQuery" element={<CatalogPage searchQuery=""/>}/>
+                    <Route path="/shop" element={<CatalogPage searchQuery=""/>}/>
                     <Route path="/" element={<HomePage />}/>
                     <Route path="/about"/>
                     <Route path="/service"/>
                 </Routes>
-                {/* <Footer/> */}
+                <Footer/>
             </div>
         </Router>
     );

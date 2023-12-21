@@ -1,0 +1,62 @@
+@import "../../../sassStyles/variables.scss";
+
+.searchbar .search {
+    display: inline-block;
+    border: 0px solid $color-gray-dark-1;
+    padding: 0px;
+    transition: all 0.15s ease;
+}
+.searchbar input[type=text] {
+    font-size: 14px;
+    border: 1px solid $color-gray-5;
+    border-radius: 5px;
+    padding: 10px;
+    width: 15em;
+	margin: 10px 2px 0 0;
+    &:focus-visible {
+        outline-color: $color-gray-dark-4;
+    }
+}
+
+/* ##### Buttons ##### */
+.btn-group .button {
+    background-color: $color-white;
+    color: $color-gray-5;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border: 1px solid $color-gray-5;
+    border-radius: 5px;
+    margin: 10px 2px;
+}
+.btn-group {
+    display: inline-block;
+}
+.btn-group .button:hover {
+    background-color: $color-gray-dark-1;
+    color: $color-white;
+}
+.btn-group .button:active, .btn-group .button:focus {
+    background-color: $color-gray-dark-1;
+    color: $color-white;
+}
+/* ##### Filter ##### */
+
+.show {
+    display: flex;
+}
+.container-btn {
+    margin: 0 0 20px 0rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vl {
+    border-left: 1px solid $color-gray-5;
+    height: 30px;
+    margin: auto 20px;
+}
+

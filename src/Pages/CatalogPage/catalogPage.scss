@@ -1,0 +1,35 @@
+@import "../../sassStyles/variables.scss";
+
+@import "./Filter/filter.css";
+@import "./Product/product.css";
+@import "./Filter/dropdown.css";
+
+.catalogPage {
+  min-height: calc(100vh - $heightOfNavbar);
+  padding: 5rem 0 5rem 10rem;
+  &__title {
+    line-height: 10rem;
+    font-size: 10rem;
+    text-transform: uppercase;
+    font-family: "FuturaPTMedium", sans-serif;
+  }
+}
+
+@media (max-width: 800px) {
+  .catalogPage {
+    padding: 5rem 0 5rem 2rem;
+    &__title {
+      line-height: 8rem;
+      font-size: 8rem;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .catalogPage {
+    padding: 5rem 0 5rem 0.5rem;
+    &__title {
+      line-height: 7rem;
+      font-size: 7rem;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import "./Filter/filter.css";
+@import "./Product/product.css";
+@import "./Filter/dropdown.css";
+.catalogPage {
+  min-height: calc(100vh - 125px);
+  padding: 5rem 0 5rem 10rem;
+}
+.catalogPage__title {
+  line-height: 10rem;
+  font-size: 10rem;
+  text-transform: uppercase;
+  font-family: "FuturaPTMedium", sans-serif;
+}
+
+@media (max-width: 800px) {
+  .catalogPage {
+    padding: 5rem 0 5rem 2rem;
+  }
+  .catalogPage__title {
+    line-height: 8rem;
+    font-size: 8rem;
+  }
+}
+@media (max-width: 400px) {
+  .catalogPage {
+    padding: 5rem 0 5rem 0.5rem;
+  }
+  .catalogPage__title {
+    line-height: 7rem;
+    font-size: 7rem;
+  }
+}
+
+/*# sourceMappingURL=catalogPage.css.map */
