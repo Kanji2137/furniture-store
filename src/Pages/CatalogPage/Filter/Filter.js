@@ -54,7 +54,7 @@ const Filter = ({showFilterCategories, searchQuery}) => {
           {showFilterCategories && <FilterList filter={filter} handleFilterChange={handleFilterChange}/>}
           {categories.map((item) => (
               <CollapseList
-                  key={item.label} // Don't forget to add a key when using map
+                  key={item.label}
                   label={item.label}
                   kinds={item.kinds}
                   handleFilter={item.option === "activity" ? handleFilterActivityChange : handleFilterColorChange}

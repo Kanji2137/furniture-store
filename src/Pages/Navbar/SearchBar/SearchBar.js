@@ -1,5 +1,7 @@
 import React, {useState} from "react";
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
+
+import {GoSearch} from "react-icons/go";
 
 const SearchBar = () => {
   const navigate = useNavigate();
@@ -17,9 +19,12 @@ const SearchBar = () => {
 
   return (
       <div className="searchbar">
-        <div className="search">
+        <div className="searchbar__search">
           <form onSubmit={handleSubmit}>
-            <input value={value} onChange={handleChange} placeholder="What are you looking?"/>
+            <div className="searchbar__input-container">
+              <GoSearch className="searchbar__icon"/>
+              <input value={value} onChange={handleChange} placeholder="What are you looking?"/>
+            </div>
           </form>
         </div>
       </div>

@@ -8,11 +8,12 @@ function CatalogPage({searchQueryDefault}) {
   const location = useLocation();
   const isFromSearchBar = location.pathname.includes('/search');
   const finalSearchQuery = isFromSearchBar ? searchQueryDefault : searchQuery || '';
+  const showFilterCategories = finalSearchQuery === "";
 
   return (
       <section className="catalogPage">
         <div className="catalogPage__title">Catalog</div>
-        <Filter searchQuery={finalSearchQuery} showFilterCategories={true}/>
+        <Filter searchQuery={finalSearchQuery} showFilterCategories={showFilterCategories}/>
       </section>
   );
 }

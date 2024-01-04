@@ -16,10 +16,8 @@
 }
 .shopByRoom__imageContainer img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 100% 65%;
-     object-position: 100% 65%;
+  object-fit: cover;
+  object-position: 100% 65%;
 }
 .shopByRoom__imageContainer {
   display: flex;
@@ -54,6 +52,7 @@
   grid-row: 4;
 }
 .shopByRoom__image-3 img {
+  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 .shopByRoom__image-4 {
@@ -61,6 +60,7 @@
   grid-row: 2/span 3;
 }
 .shopByRoom__image-4 img {
+  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
@@ -115,3 +115,5 @@
     padding: 1rem 0;
   }
 }
+
+/*# sourceMappingURL=shopByRoom.css.map */

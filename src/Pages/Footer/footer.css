@@ -85,7 +85,6 @@ footer {
 }
 
 .footer__link-des {
-  width: -moz-fit-content;
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -153,3 +152,5 @@ footer {
 .footer__copyright p {
   padding: 20px;
 }
+
+/*# sourceMappingURL=footer.css.map */

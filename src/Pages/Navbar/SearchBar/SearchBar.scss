@@ -1,0 +1,46 @@
+.searchbar {
+  flex-grow: 1;
+  margin-inline-start: 1.5rem;
+  margin-inline-end: 1.5rem;
+  display: flex;
+
+  &__search {
+    margin: auto 0 auto 0;
+    width: 100%;
+
+    input {
+      font-family: FuturaPTBook, sans-serif;
+      width: 100%;
+      font-size: 1.8rem;
+      border-radius: 12px;
+      padding: 5px 5px 5px 40px;
+      border: none;
+    }
+  }
+  &__input-container {
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    fill: #555;
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .searchbar {
+    order: 2;
+  }
+}
+
+@media (max-width: 700px) {
+  .searchbar {
+    order: 3;
+  }
+}

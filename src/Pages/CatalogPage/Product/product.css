@@ -29,8 +29,7 @@
   width: 100%;
   max-height: 200px;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   align-self: center;
   margin: auto;
 }
@@ -87,3 +86,5 @@
     max-height: var(--size400);
   }
 }
+
+/*# sourceMappingURL=product.css.map */

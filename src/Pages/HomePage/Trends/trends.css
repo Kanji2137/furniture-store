@@ -1,0 +1,51 @@
+@import "./TrendAndNews/trendsNews.css";
+.trends {
+  padding-bottom: 10rem;
+  background-color: #ffffff;
+}
+.trends__container {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.trends__imageContainer {
+  max-height: 460px;
+  z-index: 10;
+}
+.trends__imageContainer img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: auto;
+}
+.trends__imageContainer-1 {
+  width: 45%;
+}
+.trends__description {
+  padding: 2rem;
+  position: absolute;
+}
+.trends__description h2 {
+  font-family: "FuturaPTLight", sans-serif;
+}
+.trends__description h1 {
+  text-transform: uppercase;
+}
+.trends__description a {
+  text-transform: uppercase;
+  font-family: "FuturaPTBook", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .trends__imageContainer {
+    max-height: 390px;
+  }
+}
+@media (max-width: 500px) {
+  .trends__imageContainer {
+    max-height: 300px;
+  }
+}
+
+/*# sourceMappingURL=trends.css.map */
