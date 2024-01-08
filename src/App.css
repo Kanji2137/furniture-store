@@ -7,6 +7,7 @@
 @import "./Pages/HomePage/homePage.css";
 @import "./Pages/Footer/footer.css";
 @import "./Pages/CatalogPage/catalogPage.css";
+@import "./Pages/ProductPage/productPage.css";
 @font-face {
   font-family: "FuturaPTLight";
   src: local("FuturaPTLight"), url("./fonts/futura/FuturaPTLight.otf") format("truetype");
