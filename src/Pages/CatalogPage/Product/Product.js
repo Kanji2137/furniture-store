@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Product({resource}) {
   return (
-    <a href={resource.link} target="_blank" key={resource.name} className="product">
+    <Link to="/product" key={resource.name} className="product" state={{ resource: resource }}>
       <div className={`product__content`}>
           <div className="product__image">
             <img src={resource.url} alt={resource.name} />
@@ -12,7 +13,7 @@ function Product({resource}) {
             <h2>{resource.price} $</h2>
           </div>
       </div>
-    </a>
+    </Link>
   );
 }
 

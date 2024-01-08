@@ -72,6 +72,30 @@
   display: none;
 }
 
+.nav-cart {
+  position: relative;
+}
+.nav-cart-quantity {
+  position: absolute;
+  bottom: 22px;
+  right: 8px;
+  color: white;
+  background: #32524f;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 0 4px 0 4px;
+}
+
+@media (max-width: 1500px) {
+  .nav > .nav-links > a {
+    padding: 0 3rem;
+  }
+  .nav > .nav-icons {
+    padding-right: 3rem;
+  }
+}
 @media (max-width: 1300px) {
   .nav > .nav-icons {
     order: 3;

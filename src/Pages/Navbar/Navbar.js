@@ -14,6 +14,9 @@ import Footer from "../Footer/Footer";
 
 import HomePage from "../HomePage/HomePage";
 import CatalogPage from "../CatalogPage/CatalogPage";
+import ProductPage from "../ProductPage/ProductPage";
+import CartPage from "../CartPage/CartPage";
+import {useSelector} from "react-redux";
 // import AboutPage from "../AboutPage/AboutPage";
 // import ShopPage from "../ShopPage/ShopPage";
 // import ProductPage from "../ProductPage/ProductPage";
@@ -27,6 +30,8 @@ import CatalogPage from "../CatalogPage/CatalogPage";
 // import logo from "../../images/logo.svg";
 
 function Navbar() {
+  const quantity = useSelector(state => state.cart.totalQuantity)
+
   const [isChecked, setIsChecked] = useState(false);
 
   const checkHandler = () => {
@@ -93,14 +98,15 @@ return (
             <Link to="/cart/cart">
               <ProfileSvg/>
             </Link>
-            <Link to="/cart/cart">
+            <Link to="/cart/cart" className="nav-cart">
               <LiaShoppingBagSolid/>
+              <h5 className="nav-cart-quantity">{quantity}</h5>
             </Link>
           </div>
         </div>
 
         <Routes>
-          <Route path="/cart">
+          <Route path="/cart" element={<CartPage/>}>
             <Route path="/cart/pruduct"/>
             <Route path="/cart/cart"/>
             <Route path="/cart/payment"/>
@@ -108,6 +114,7 @@ return (
           <Route path="/shop/:searchQuery" element={<CatalogPage searchQuery=""/>}/>
           <Route path="/shop" element={<CatalogPage searchQuery=""/>}/>
           <Route path="/" element={<HomePage/>}/>
+          <Route path="/product" element={<ProductPage/>}/>
           <Route path="/about"/>
           <Route path="/service"/>
         </Routes>
