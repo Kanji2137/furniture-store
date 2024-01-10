@@ -1,0 +1,14 @@
+@import "CartItems/cartItems.css";
+.cart h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.cart__page-container {
+  display: flex;
+  justify-content: space-between;
+}
+.cart__sidebar {
+  flex: 1;
+}
+
+/*# sourceMappingURL=cartPage.css.map */

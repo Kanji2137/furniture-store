@@ -1,0 +1,12 @@
+@import "CartItem/cartItem.css";
+
+.cartItems__container {
+  flex: 2;
+  li {
+    padding: 2.5rem 5rem;
+    width: 100%;
+    hr {
+      margin-top: 2.5rem;
+    }
+  }
+}

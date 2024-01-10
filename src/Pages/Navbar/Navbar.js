@@ -16,6 +16,8 @@ import HomePage from "../HomePage/HomePage";
 import CatalogPage from "../CatalogPage/CatalogPage";
 import ProductPage from "../ProductPage/ProductPage";
 import CartPage from "../CartPage/CartPage";
+import WishlistPage from "../WishlistPage/WishlistPage";
+
 import {useSelector} from "react-redux";
 // import AboutPage from "../AboutPage/AboutPage";
 // import ShopPage from "../ShopPage/ShopPage";
@@ -92,7 +94,7 @@ return (
           </div>
           <SearchBar/>
           <div className="nav-icons">
-            <Link to="/cart/cart">
+            <Link to="/wishlist">
               <BsHeart/>
             </Link>
             <Link to="/cart/cart">
@@ -116,7 +118,7 @@ return (
           <Route path="/" element={<HomePage/>}/>
           <Route path="/product" element={<ProductPage/>}/>
           <Route path="/about"/>
-          <Route path="/service"/>
+          <Route path="/wishlist" element={<WishlistPage/>}/>
         </Routes>
         <Footer/>
       </div>

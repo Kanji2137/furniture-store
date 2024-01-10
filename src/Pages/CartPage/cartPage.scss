@@ -1,0 +1,15 @@
+@import "CartItems/cartItems.css";
+
+.cart {
+  h3 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__page-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__sidebar {
+    flex: 1;
+  }
+}

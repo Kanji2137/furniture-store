@@ -1,0 +1,84 @@
+@import "../../../../sassStyles/variables";
+
+.cartItem {
+  color: $color-gray-dark-4;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  &__contentContainer {
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 15rem;
+      max-height: 15rem;
+    }
+  }
+  &__name {
+    line-height: 30px;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+  }
+  &__price {
+    font-size: 1.6rem;
+  }
+  button {
+    background-color: initial;
+  }
+  &__removeBtn {
+    border: none;
+    font-size: 40px;
+    color: $color-gray-dark-4;
+    display: contents;
+  }
+  &__amountChanger {
+    display: flex;
+    justify-items: center;
+    height: 40px;
+    --border-width: 1px;
+    button {
+      width: 40px;
+      border-top: var(--border-width) solid;
+      border-bottom: var(--border-width) solid;
+      border-color: $color-gray-dark-4;
+    }
+    &-but-1 {
+      border-left: var(--border-width)  solid;
+      border-right: none;
+      border-color: $color-gray-dark-4;
+    }
+    &-but-2 {
+      border-right: var(--border-width)  solid;
+      border-left: none;
+      border-color: $color-gray-dark-4;
+    }
+    h1 {
+      width: 64px;
+      height: 100%;
+      line-height: 41px;
+      align-self: center;
+      text-align: center;
+      border: var(--border-width)  solid $color-gray-dark-4;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .cartItem {
+    &__contentContainer {
+      order: -1;
+      flex-basis: 90%;
+    }
+    &__removeBtn {
+      order: 2;
+      flex-basis: 10%;
+    }
+    &__amountChanger {
+      order: 3;
+    }
+    &__price {
+      order: 4;
+    }
+  }
+}

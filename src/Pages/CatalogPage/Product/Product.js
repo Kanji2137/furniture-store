@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Product({resource}) {
+function Product({name, price, description, url}) {
   return (
-    <Link to="/product" key={resource.name} className="product" state={{ resource: resource }}>
+    <Link to="/product" key={name} className="product" state={{name, price, description, url}}>
       <div className={`product__content`}>
           <div className="product__image">
-            <img src={resource.url} alt={resource.name} />
+            <img src={url} alt={name} />
           </div>
           <div className="product__title">
-            <h1>{resource.name}</h1>
-            <h2>{resource.price} $</h2>
+            <h1>{name}</h1>
+            <h2>{price} $</h2>
           </div>
       </div>
     </Link>

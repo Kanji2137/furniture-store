@@ -65,7 +65,7 @@ const Filter = ({showFilterCategories, searchQuery}) => {
         {/* Content Cards */}
         <div className="product__container">
           {filteredResources.map((resource, index) => (
-              <Product key={index} resource={resource}/>
+              <Product key={index} name={resource.name} url={resource.url} price={resource.price} description={resource.description }/>
           ))}
         </div>
       </div>

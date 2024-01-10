@@ -28,7 +28,28 @@
   font-size: 2rem;
 }
 .productPage__button span {
+  text-transform: uppercase;
   width: 102%;
+  padding: 0 2rem;
+}
+.productPage__wishlist {
+  display: flex;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  width: fit-content;
+  padding-top: 1.5rem;
+}
+.productPage__wishlist h2 {
+  font-size: 1.6rem;
+}
+.productPage__wishlist svg {
+  font-size: 2.4rem;
+  margin-left: 1rem;
+  align-self: center;
+}
+.productPage__moreDescription {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=productPage.css.map */
