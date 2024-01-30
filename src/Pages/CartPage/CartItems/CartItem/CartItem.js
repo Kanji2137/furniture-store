@@ -1,25 +1,42 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 import {RiDeleteBin6Line} from 'react-icons/ri';
+import {cartActions} from "../../../../store/cart-slice";
 
-const CartItem = ({name, url, price, description}) => {
+const CartItem = ({quantity, name, url, price, description}) => {
+
+  const dispatch = useDispatch();
+  const incrementCartItems = (name, id, price) => {
+    dispatch(cartActions.addToCart({
+      name,
+      id,
+      price
+    }))
+  }
+  const decrementCartItems = (id) => {
+    dispatch(cartActions.decrementCartItems(id));
+  }
+  const removeCartItems = (id) => {
+    dispatch(cartActions.removeCartItems(id));
+  }
+
   return (
       <div className="cartItem">
         <div className="cartItem__contentContainer">
-          <Link to="/product" className="product"
+          <Link to="/product"
                 state={{name, url, price, description}}>
-            <img alt="image of furniture" src={url}/>
+            <img alt="furniture" src={url}/>
           </Link>
           <h1 className="cartItem__name">{name}</h1>
         </div>
         <div className="cartItem__amountChanger">
-          <button className="cartItem__amountChanger-but-1">+</button>
-          <h1>0</h1>
-          <button className="cartItem__amountChanger-but-2">-</button>
+          <button onClick={() => incrementCartItems(name, url, price)} className="cartItem__amountChanger-but-1">+</button>
+          <h1>{quantity}</h1>
+          <button onClick={() => decrementCartItems(url)} className="cartItem__amountChanger-but-2">-</button>
         </div>
         <div className="cartItem__price">{price},-</div>
-        <button className="cartItem__removeBtn"><RiDeleteBin6Line/></button>
+        <button onClick={() => removeCartItems(url)} className="cartItem__removeBtn"><RiDeleteBin6Line/></button>
       </div>
   )
 }

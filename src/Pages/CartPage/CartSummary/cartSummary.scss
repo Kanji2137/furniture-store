@@ -1,0 +1,44 @@
+.cartSummary {
+  flex: 1;
+  margin-bottom: 5rem;
+
+  &__container {
+    padding: 2rem 3rem 0 3rem;
+    position: sticky;
+    top: 0;
+    hr {
+      margin: 1rem 0;
+    }
+  }
+  &__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "FuturaPTLight", sans-serif;
+    span {
+      font-size: 1.6rem;
+    }
+  }
+  &__price {
+    font-size: 1.5rem;
+  }
+  &__total {
+    margin-bottom: 2rem;
+  }
+  &__button {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cartSummary {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 1100px) {
+  .cartSummary {
+    flex-basis: 100%;
+  }
+}

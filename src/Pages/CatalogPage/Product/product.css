@@ -1,7 +1,8 @@
 :root {
-  --size800: 30rem;
-  --size500: 20rem;
-  --size400: 15rem;
+  --size300: 30rem;
+  --size200: 20rem;
+  --size190: 19rem;
+  --size150: 15rem;
 }
 
 .product {
@@ -50,40 +51,53 @@
     justify-content: center;
   }
   .product__content {
-    max-width: var(--size800);
-    min-width: var(--size800);
+    max-width: var(--size300);
+    min-width: var(--size300);
   }
   .product__image {
-    height: var(--size800);
+    height: var(--size300);
   }
   .product__image img {
-    max-height: var(--size800);
+    max-height: var(--size300);
+  }
+}
+@media (max-width: 630px) {
+  .product__content {
+    max-width: var(--size190);
+    min-width: var(--size190);
+  }
+  .product__image {
+    height: var(--size190);
+  }
+  .product__image img {
+    min-width: var(--size190);
+    max-height: var(--size190);
   }
 }
 @media (max-width: 500px) {
   .product__content {
-    max-width: var(--size500);
-    min-width: var(--size500);
+    max-width: var(--size200);
+    min-width: var(--size200);
   }
   .product__image {
-    height: var(--size500);
+    height: var(--size200);
   }
   .product__image img {
-    min-width: var(--size500);
-    max-height: var(--size500);
+    min-width: var(--size200);
+    max-height: var(--size200);
   }
 }
 @media (max-width: 400px) {
   .product__content {
-    max-width: var(--size400);
-    min-width: var(--size400);
+    max-width: var(--size150);
+    min-width: var(--size150);
   }
   .product__image {
-    height: var(--size400);
+    height: var(--size150);
   }
   .product__image img {
-    min-width: var(--size400);
-    max-height: var(--size400);
+    min-width: var(--size150);
+    max-height: var(--size150);
   }
 }
 

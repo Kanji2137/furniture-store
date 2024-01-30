@@ -1,0 +1,45 @@
+.cartSummary {
+  flex: 1;
+  margin-bottom: 5rem;
+}
+.cartSummary__container {
+  padding: 2rem 3rem 0 3rem;
+  position: sticky;
+  top: 0;
+}
+.cartSummary__container hr {
+  margin: 1rem 0;
+}
+.cartSummary__items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "FuturaPTLight", sans-serif;
+}
+.cartSummary__items span {
+  font-size: 1.6rem;
+}
+.cartSummary__price {
+  font-size: 1.5rem;
+}
+.cartSummary__total {
+  margin-bottom: 2rem;
+}
+.cartSummary__button {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .cartSummary {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 1100px) {
+  .cartSummary {
+    flex-basis: 100%;
+  }
+}
+
+/*# sourceMappingURL=cartSummary.css.map */

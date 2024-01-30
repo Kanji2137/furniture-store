@@ -8,15 +8,17 @@
 .cartItem__contentContainer {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .cartItem__contentContainer img {
   max-width: 15rem;
   max-height: 15rem;
+  margin-right: 2rem;
 }
 .cartItem__name {
   line-height: 30px;
   font-size: 1.6rem;
-  padding-left: 2rem;
+  padding: 2rem 2rem 2rem 0;
 }
 .cartItem__price {
   font-size: 1.6rem;

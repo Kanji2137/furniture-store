@@ -6,7 +6,7 @@
     margin: 0 auto;
   }
   &__image {
-    flex: 2;
+    flex: 2 1;
     img {
       width: 100%;
     }
@@ -51,5 +51,23 @@
   &__moreDescription {
     width: 80%;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .productPage {
+    &__description {
+      padding-left: 0;
+    }
+    &__container {
+      padding: 6rem 0;
+      flex-wrap: wrap;
+    }
+    &__image {
+      flex: auto;
+    }
+    &__description {
+      flex: auto;
+    }
   }
 }

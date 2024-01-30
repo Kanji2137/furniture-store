@@ -1,13 +1,13 @@
 import React from "react";
 import CartItems from "./CartItems/CartItems";
+import CartSummary from "./CartSummary/CartSummary";
 
 function CartPage () {
   return (
       <div className="cart">
-        <h3>Your shopping cart</h3>
         <div className="cart__page-container">
           <CartItems/>
-          <div className="cart__sidebar">right side bar</div>
+          <CartSummary/>
         </div>
       </div>
   )

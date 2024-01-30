@@ -10,4 +10,10 @@
   margin-top: 2.5rem;
 }
 
+@media (max-width: 1100px) {
+  .cartItems__container {
+    flex-basis: 50%;
+  }
+}
+
 /*# sourceMappingURL=cartItems.css.map */
