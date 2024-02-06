@@ -3,7 +3,7 @@
 @import "./Filter/dropdown.css";
 .catalogPage {
   min-height: calc(100vh - 124px);
-  padding: 5rem 0 5rem 10rem;
+  padding: 5rem;
 }
 .catalogPage__title {
   line-height: 10rem;
@@ -11,32 +11,20 @@
   text-transform: uppercase;
   font-family: "FuturaPTMedium", sans-serif;
 }
-.catalogPage__container {
-  width: calc(100% - 10rem);
-}
 
 @media (max-width: 800px) {
   .catalogPage {
-    padding: 5rem 0 5rem 2rem;
+    padding: 5rem 1rem 5rem 1rem;
   }
   .catalogPage__title {
     line-height: 8rem;
     font-size: 8rem;
   }
-  .catalogPage__container {
-    width: calc(100% - 2rem);
-  }
 }
 @media (max-width: 400px) {
-  .catalogPage {
-    padding: 5rem 0 5rem 0.5rem;
-  }
   .catalogPage__title {
     line-height: 7rem;
     font-size: 7rem;
-  }
-  .catalogPage__container {
-    width: 100%;
   }
 }
 

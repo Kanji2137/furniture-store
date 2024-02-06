@@ -7,6 +7,7 @@
 
 .product {
   cursor: pointer;
+  width: calc(20% - 0.8rem);
 }
 .product__container {
   justify-content: flex-start;
@@ -15,10 +16,6 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
-.product__content {
-  max-width: 27rem;
-  min-width: 27rem;
-}
 .product__image {
   height: 200px;
   background-color: #efefee;
@@ -26,7 +23,6 @@
   position: relative;
 }
 .product__image img {
-  min-width: 200px;
   width: 100%;
   max-height: 200px;
   height: 100%;
@@ -46,58 +42,19 @@
   font-family: "FuturaPTLight", sans-serif;
 }
 
-@media (max-width: 800px) {
-  .product__container {
-    justify-content: center;
-  }
-  .product__content {
-    max-width: var(--size300);
-    min-width: var(--size300);
-  }
-  .product__image {
-    height: var(--size300);
-  }
-  .product__image img {
-    max-height: var(--size300);
+@media (max-width: 1200px) {
+  .product {
+    width: calc(25% - 0.75rem);
   }
 }
-@media (max-width: 630px) {
-  .product__content {
-    max-width: var(--size190);
-    min-width: var(--size190);
-  }
-  .product__image {
-    height: var(--size190);
-  }
-  .product__image img {
-    min-width: var(--size190);
-    max-height: var(--size190);
+@media (max-width: 1000px) {
+  .product {
+    width: calc(33.33333% - 0.6666666667rem);
   }
 }
-@media (max-width: 500px) {
-  .product__content {
-    max-width: var(--size200);
-    min-width: var(--size200);
-  }
-  .product__image {
-    height: var(--size200);
-  }
-  .product__image img {
-    min-width: var(--size200);
-    max-height: var(--size200);
-  }
-}
-@media (max-width: 400px) {
-  .product__content {
-    max-width: var(--size150);
-    min-width: var(--size150);
-  }
-  .product__image {
-    height: var(--size150);
-  }
-  .product__image img {
-    min-width: var(--size150);
-    max-height: var(--size150);
+@media (max-width: 670px) {
+  .product {
+    width: calc(50% - 0.5rem);
   }
 }
 
