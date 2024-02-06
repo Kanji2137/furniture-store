@@ -1,0 +1,22 @@
+.deliveryAddress__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.deliveryAddress__name {
+  padding: 0 15px;
+  width: 50%;
+}
+.deliveryAddress__name input {
+  width: 100%;
+}
+.deliveryAddress__fieldAddress {
+  width: 100%;
+  padding: 0 15px;
+}
+.deliveryAddress__fieldAddress input {
+  width: 100%;
+}
+
+/*# sourceMappingURL=deliveryAddress.css.map */

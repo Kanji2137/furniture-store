@@ -6,7 +6,7 @@ function Product({name, price, description, url}) {
     <Link to="/product" key={name} className="product" state={{name, price, description, url}}>
       <div className={`product__content`}>
           <div className="product__image">
-            <img src={url} alt={name} />
+            <img src={`${url}.jpg`} alt={name} />
           </div>
           <div className="product__title">
             <h1>{name}</h1>

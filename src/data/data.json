@@ -1,4 +1,55 @@
 {
+  "formAddress": [
+    {
+      "className": "deliveryAddress__name",
+      "htmlFor": "name-holder",
+      "id": 1,
+      "title": "First Name:",
+      "placeHolder": "Name"
+    },
+    {
+      "className": "deliveryAddress__name",
+      "htmlFor": "lastName-holder",
+      "id": 2,
+      "title": "Last Name:",
+      "placeHolder": "Last Name"
+    },
+    {
+      "className": "deliveryAddress__fieldAddress",
+      "htmlFor": "city-holder",
+      "id": 3,
+      "title": "City:",
+      "placeHolder": "City"
+    },
+    {
+      "className": "deliveryAddress__fieldAddress",
+      "htmlFor": "state-holder",
+      "id": 4,
+      "title": "State:",
+      "placeHolder": "State"
+    },
+    {
+      "className": "deliveryAddress__fieldAddress",
+      "htmlFor": "zip-holder",
+      "id": 5,
+      "title": "Zip / Postal Code:",
+      "placeHolder": "Zip / Postal Code"
+    },
+    {
+      "className": "deliveryAddress__fieldAddress",
+      "htmlFor": "phone-holder",
+      "id": 6,
+      "title": "Phone Number:",
+      "placeHolder": "Phone Number"
+    },
+    {
+      "className": "deliveryAddress__fieldAddress",
+      "htmlFor": "email-holder",
+      "id": 7,
+      "title": "Email Address:",
+      "placeHolder": "Email Address"
+    }
+  ],
   "bestsellers": [
     {
       "title": "Wooden small chair",
@@ -46,22 +97,22 @@
       {
         "title": "New Collection",
         "sub_title": "HALF&HALF CHAIRS",
-        "url": "../../../images/trends/seats.jpg"
+        "url": "../../../images/trends/seats"
       },
       {
         "title": "Trends",
         "sub_title": "Warm Essentials",
-        "url": "../../../images/trends/sofa.jpg"
+        "url": "../../../images/trends/sofa"
       }
     ],
     "trendsNewsletter": {
       "trend": {
         "description": "Living room interior ideas",
-        "url": "../../../images/trends/table.jpg"
+        "url": "../../../images/trends/table"
       },
       "newsletter": {
         "description": "Subscribe to the Edge newsletter! You will be the first to learn the latest interior design and special offers.",
-        "url": "../../../images/trends/sofa.jpg"
+        "url": "../../../images/trends/sofa"
       }
     }
   },
@@ -118,7 +169,7 @@
         "type": "couch",
         "name": "Luxe Comfort 3-Seater Velvet Couch",
         "description": "Indulge in the perfect blend of style and comfort with our Luxe Comfort 3-Seater Velvet Sofa. Designed to elevate your living space, this exquisite sofa exudes timeless elegance and offers a cozy retreat for you and your loved ones.",
-        "url": "../../../images/products/couch.jpg",
+        "url": "../../../images/products/couch",
         "activity": "Relax",
         "color": "black"
       },
@@ -127,7 +178,7 @@
         "type": "chair",
         "name": "Sleek Elegance Black Chair",
         "description": "Introducing the Sleek Elegance Black Chair, a versatile piece that combines modern design with timeless sophistication. This chair not only enhances your interior decor but also provides a comfortable and stylish seating solution for any room.",
-        "url": "../../../images/products/black-chair.jpg",
+        "url": "../../../images/products/black-chair",
         "activity": "Relax",
         "color": "black"
       },
@@ -136,7 +187,7 @@
         "type": "chair",
         "name": "Executive Comfort Office Chair",
         "description": "Upgrade your workspace with the Executive Comfort Office Chair, a blend of ergonomic design and contemporary style. This chair not only enhances your productivity but also adds a touch of sophistication to your office.",
-        "url": "../../../images/products/office-chair.jpg",
+        "url": "../../../images/products/office-chair",
         "activity": "Relax",
         "color": "black"
       },
@@ -145,7 +196,7 @@
         "type": "chair",
         "name": "Classic Comfort Upholstered Chair",
         "description": "Introducing the Classic Comfort Upholstered Chair, a timeless piece that combines enduring comfort with a touch of elegance. Crafted with attention to detail, this chair brings both style and relaxation to your home.",
-        "url": "../../../images/products/regular-chair.jpg",
+        "url": "../../../images/products/regular-chair",
         "activity": "Relax",
         "color": "black"
       },
@@ -154,7 +205,7 @@
         "type": "couch",
         "name": "Comfort Haven 3-Seater Sofa",
         "description": "Transform your living space into a haven of comfort and style with our Comfort Haven 3-Seater Sofa. This versatile sofa offers the perfect combination of relaxation and aesthetics, making it the ideal centerpiece for your home.",
-        "url": "../../../images/products/regular-couch.jpg",
+        "url": "../../../images/products/regular-couch",
         "activity": "Relax",
         "color": "black"
       },
@@ -163,7 +214,7 @@
         "type": "chair",
         "name": "Classic Wooden Dining Chair",
         "description": "Introducing our Classic Wooden Dining Chair, a timeless piece that combines rustic charm with enduring functionality. Crafted with precision and care, this chair offers both comfort and a touch of nostalgia to your dining or living space.",
-        "url": "../../../images/products/wooden-chairs.jpg",
+        "url": "../../../images/products/wooden-chairs",
         "activity": "Relax",
         "color": "white"
       },
@@ -172,7 +223,7 @@
         "type": "chair",
         "name": "Modern Elegance Upholstered Chair",
         "description": "Upgrade your seating experience with the Modern Elegance Upholstered Chair, a harmonious blend of contemporary design and luxurious comfort. This chair not only exudes sophistication but also provides a cozy spot to unwind and relax.",
-        "url": "../../../images/products/modern-chair.jpg",
+        "url": "../../../images/products/modern-chair",
         "activity": "Relax",
         "color": "white"
       },
@@ -181,7 +232,7 @@
         "type": "lamp",
         "name": "Contemporary Elegance Table Lamp",
         "description": "Illuminate your living space with a touch of contemporary elegance using our Contemporary Elegance Table Lamp. This exquisite lamp not only provides warm and inviting lighting but also adds a dash of sophistication to your home decor.",
-        "url": "../../../images/products/lamp.jpg",
+        "url": "../../../images/products/lamp",
         "activity": "Relax",
         "color": "white"
       },
@@ -190,7 +241,7 @@
         "type": "couch",
         "name": "Timeless Elegance Black Classic Couch",
         "description": "Introducing the Timeless Elegance Black Classic Couch, a masterpiece that combines the enduring appeal of classic design with the sophisticated allure of black upholstery. This couch not only serves as a comfortable seating solution but also adds a touch of timeless charm to your living space.",
-        "url": "../../../images/products/classic-couch.jpg",
+        "url": "../../../images/products/classic-couch",
         "activity": "Cleaning",
         "color": "white"
       },
@@ -199,7 +250,7 @@
         "type": "chair",
         "name": "Elegant Garden Retreat Chair",
         "description": "Create a serene outdoor oasis with our Elegant Garden Retreat Chair. Designed for both comfort and style, this chair allows you to relax and enjoy your garden in tranquility.",
-        "url": "../../../images/products/garden-chair.jpg",
+        "url": "../../../images/products/garden-chair",
         "activity": "Relax",
         "color": "white"
       },
@@ -208,7 +259,7 @@
         "type": "lamp",
         "name": "Regal Gold Accent Table Lamp",
         "description": "Illuminate your space with the Regal Gold Accent Table Lamp. Its opulent gold finish and timeless design make it a statement piece that adds a touch of luxury to any room.",
-        "url": "../../../images/products/golden-lamp.jpg",
+        "url": "../../../images/products/golden-lamp",
         "activity": "Cooking",
         "color": "white"
       },
@@ -217,7 +268,7 @@
         "type": "desk",
         "name": "Industrial Elegance Metal Desk",
         "description": "Elevate your workspace with our Industrial Elegance Metal Desk. Its rugged yet sophisticated design is perfect for both home offices and corporate settings.",
-        "url": "../../../images/products/metal-desk.jpg",
+        "url": "../../../images/products/metal-desk",
         "activity": "Cooking",
         "color": "white"
       },
@@ -226,7 +277,7 @@
         "type": "chair",
         "name": "Contemporary Bliss Blue Chair",
         "description": "Experience modern comfort with our Contemporary Bliss Blue Chair. Its sleek design and vibrant blue upholstery create a chic and inviting seating solution.",
-        "url": "../../../images/products/modern-blue-chair.jpg",
+        "url": "../../../images/products/modern-blue-chair",
         "activity": "Cooking",
         "color": "white"
       },
@@ -235,7 +286,7 @@
         "type": "desk",
         "name": "Minimalist Modern Office Desk",
         "description": "Achieve a clutter-free workspace with our Minimalist Modern Office Desk. Its clean lines and functional design enhance productivity while maintaining a sleek aesthetic.",
-        "url": "../../../images/products/modern-desk.jpg",
+        "url": "../../../images/products/modern-desk",
         "activity": "Cooking",
         "color": "white"
       },
@@ -244,7 +295,7 @@
         "type": "lamp",
         "name": "Sleek Modern Table Lamp",
         "description": "Illuminate your space with the Sleek Modern Table Lamp. Its minimalist design and understated elegance make it a versatile addition to any room.",
-        "url": "../../../images/products/modern-lamp.jpg",
+        "url": "../../../images/products/modern-lamp",
         "activity": "Cooking",
         "color": "white"
       },
@@ -253,7 +304,7 @@
         "type": "chair",
         "name": "Professional Office Desk Lamp",
         "description": "Enhance your work environment with the Professional Office Desk Lamp. Its adjustable features and contemporary design offer optimal lighting for productivity.",
-        "url": "../../../images/products/office-lamp.jpg",
+        "url": "../../../images/products/office-lamp",
         "activity": "Cooking",
         "color": "white"
       },
@@ -262,7 +313,7 @@
         "type": "couch",
         "name": "Vibrant Orange Comfort Couch",
         "description": "Add a burst of color to your living room with our Vibrant Orange Comfort Couch. Its bold design and plush cushions create a cozy and inviting atmosphere.",
-        "url": "../../../images/products/orange-couch.jpg",
+        "url": "../../../images/products/orange-couch",
         "activity": "Cooking",
         "color": "white"
       },
@@ -271,7 +322,7 @@
         "type": "chair",
         "name": "Classic Garden Relaxation Chair",
         "description": "Enjoy the simplicity of outdoor living with our Classic Garden Relaxation Chair. Its timeless design and sturdy construction make it a perfect addition to your garden.",
-        "url": "../../../images/products/simple-garden-chair.jpg",
+        "url": "../../../images/products/simple-garden-chair",
         "activity": "Cooking",
         "color": "white"
       },
@@ -280,7 +331,7 @@
         "type": "desk",
         "name": "Clean Slate White Writing Desk",
         "description": "Organize your thoughts with the Clean Slate White Writing Desk. Its pristine design and ample workspace provide a serene environment for creativity.",
-        "url": "../../../images/products/white-desk.jpg",
+        "url": "../../../images/products/white-desk",
         "activity": "Cooking",
         "color": "white"
       },
@@ -289,7 +340,7 @@
         "type": "lamp",
         "name": "Natural Wood Table Lamp",
         "description": "Bring a touch of nature indoors with the Natural Wood Table Lamp. Its rustic charm and warm lighting create a cozy ambiance in any room.",
-        "url": "../../../images/products/wooden-lamp.jpg",
+        "url": "../../../images/products/wooden-lamp",
         "activity": "Cooking",
         "color": "white"
       },
@@ -298,7 +349,7 @@
         "type": "desk",
         "name": "Rustic Simplicity Wooden Desk",
         "description": "Embrace the beauty of simplicity with our Rustic Simplicity Wooden Desk. Its minimalist design and natural wood finish offer a timeless workspace solution.",
-        "url": "../../../images/products/wooden-simple-desk.jpg",
+        "url": "../../../images/products/wooden-simple-desk",
         "activity": "Cooking",
         "color": "white"
       },
@@ -307,7 +358,7 @@
         "type": "couch",
         "name": "Sunshine Yellow Comfort Couch",
         "description": "Infuse your living space with warmth and cheerfulness with our Sunshine Yellow Comfort Couch. Its vibrant color and plush seating invite relaxation and joy.",
-        "url": "../../../images/products/yellow-comfort-couch.jpg",
+        "url": "../../../images/products/yellow-comfort-couch",
         "activity": "Cooking",
         "color": "white"
       }

@@ -1,0 +1,45 @@
+@import "./CardDetails/cardDetails.css";
+@import "./DeliveryAdress/deliveryAddress.css";
+.paymentPage__container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 40%;
+  margin: auto;
+}
+.paymentPage__button {
+  width: calc(100% - 30px);
+  margin-left: 15px;
+  font-size: 2rem;
+}
+.paymentPage__input {
+  font-size: 12px;
+  padding-left: 6px;
+  height: 3rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.paymentPage__label {
+  font-size: 16px;
+}
+.paymentPage__title {
+  font-size: 2rem;
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+  .paymentPage__container {
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .paymentPage__container {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .paymentPage__container {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=paymentPage.css.map */

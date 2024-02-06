@@ -1,0 +1,47 @@
+.cardDetails {
+  padding: 4rem 0;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  &__cardHolder {
+    padding: 0 15px;
+    width: 56%;
+
+    input {
+      width: 100%;
+    }
+  }
+  &__expirationDate {
+    width: 44%;
+    padding: 0 15px;
+
+    &-container {
+      display: flex;
+      input {
+        width: 50%;
+      }
+    }
+  }
+  &__date-separator {
+    font-size: 16px;
+  }
+  &__cardNumber {
+    width: 56%;
+    padding: 0 15px;
+
+    input {
+      width: 100%;
+    }
+  }
+  &__cardCvc {
+    width: 44%;
+    padding: 0 15px;
+
+    input {
+      width: 100%;
+    }
+  }
+}

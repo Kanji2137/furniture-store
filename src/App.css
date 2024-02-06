@@ -9,6 +9,11 @@
 @import "./Pages/CatalogPage/catalogPage.css";
 @import "./Pages/ProductPage/productPage.css";
 @import "./Pages/CartPage/cartPage.css";
+@import "./Pages/PaymentPage/paymentPage.css";
+.overflow-hidden {
+  overflow: hidden;
+}
+
 @font-face {
   font-family: "FuturaPTLight";
   src: local("FuturaPTLight"), url("./fonts/futura/FuturaPTLight.otf") format("truetype");

@@ -17,6 +17,7 @@ import CatalogPage from "../CatalogPage/CatalogPage";
 import ProductPage from "../ProductPage/ProductPage";
 import CartPage from "../CartPage/CartPage";
 import WishlistPage from "../WishlistPage/WishlistPage";
+import PaymentPage from "../PaymentPage/PaymentPage";
 
 import {useSelector} from "react-redux";
 // import AboutPage from "../AboutPage/AboutPage";
@@ -36,6 +37,12 @@ function Navbar() {
 
   const [isChecked, setIsChecked] = useState(false);
 
+  const close = () => {
+    if (isChecked) {
+      document.body.classList.remove("overflow-hidden");
+      setIsChecked(false)
+    }
+  }
   const checkHandler = () => {
     if (isChecked) {
       document.body.classList.remove("overflow-hidden");
@@ -75,7 +82,7 @@ return (
           <div className="nav-header">
             <div className="nav-title">
               <Link to="/">
-                <h1>edge .</h1>
+                <h1 onClick={close}>edge .</h1>
               </Link>
             </div>
           </div>
@@ -94,13 +101,13 @@ return (
           </div>
           <SearchBar/>
           <div className="nav-icons">
-            <Link to="/wishlist">
+            <Link to="/wishlist" onClick={close}>
               <BsHeart/>
             </Link>
-            <Link to="/cart/cart">
+            <Link to="/profile/" onClick={close}>
               <ProfileSvg/>
             </Link>
-            <Link to="/cart/cart" className="nav-cart">
+            <Link to="/cart" className="nav-cart" onClick={close}>
               <LiaShoppingBagSolid/>
               <h5 className="nav-cart-quantity">{quantity}</h5>
             </Link>
@@ -108,11 +115,8 @@ return (
         </div>
 
         <Routes>
-          <Route path="/cart" element={<CartPage/>}>
-            <Route path="/cart/pruduct"/>
-            <Route path="/cart/cart"/>
-            <Route path="/cart/payment"/>
-          </Route>
+          <Route path="/cart" element={<CartPage/>}/>
+          <Route path="/cart/payment" element={<PaymentPage/>}/>
           <Route path="/shop/:searchQuery" element={<CatalogPage searchQuery=""/>}/>
           <Route path="/shop" element={<CatalogPage searchQuery=""/>}/>
           <Route path="/" element={<HomePage/>}/>

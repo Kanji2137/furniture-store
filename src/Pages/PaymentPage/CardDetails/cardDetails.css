@@ -1,0 +1,45 @@
+.cardDetails {
+  padding: 4rem 0;
+}
+.cardDetails__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.cardDetails__cardHolder {
+  padding: 0 15px;
+  width: 56%;
+}
+.cardDetails__cardHolder input {
+  width: 100%;
+}
+.cardDetails__expirationDate {
+  width: 44%;
+  padding: 0 15px;
+}
+.cardDetails__expirationDate-container {
+  display: flex;
+}
+.cardDetails__expirationDate-container input {
+  width: 50%;
+}
+.cardDetails__date-separator {
+  font-size: 16px;
+}
+.cardDetails__cardNumber {
+  width: 56%;
+  padding: 0 15px;
+}
+.cardDetails__cardNumber input {
+  width: 100%;
+}
+.cardDetails__cardCvc {
+  width: 44%;
+  padding: 0 15px;
+}
+.cardDetails__cardCvc input {
+  width: 100%;
+}
+
+/*# sourceMappingURL=cardDetails.css.map */

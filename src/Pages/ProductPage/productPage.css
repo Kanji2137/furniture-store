@@ -47,10 +47,6 @@
   margin-left: 1rem;
   align-self: center;
 }
-.productPage__moreDescription {
-  width: 80%;
-  margin: 0 auto;
-}
 
 @media (max-width: 550px) {
   .productPage__description {

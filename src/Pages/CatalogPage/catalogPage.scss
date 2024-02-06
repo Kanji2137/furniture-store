@@ -13,6 +13,9 @@
     text-transform: uppercase;
     font-family: "FuturaPTMedium", sans-serif;
   }
+  &__container {
+    width: calc(100% - 10rem);
+  }
 }
 
 @media (max-width: 800px) {
@@ -22,6 +25,9 @@
       line-height: 8rem;
       font-size: 8rem;
     }
+    &__container {
+      width: calc(100% - 2rem);
+    }
   }
 }
 @media (max-width: 400px) {
@@ -30,6 +36,9 @@
     &__title {
       line-height: 7rem;
       font-size: 7rem;
+    }
+    &__container {
+      width: 100%;
     }
   }
 }

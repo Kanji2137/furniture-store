@@ -1,7 +1,8 @@
 import React from "react";
 import {useSelector} from "react-redux";
+import {Link} from "react-router-dom";
 
-function CartSummary () {
+function CartSummary() {
   const totalPrice = useSelector(state => state.cart.totalPrice);
   const total = totalPrice + 9.99
   return (
@@ -20,11 +21,13 @@ function CartSummary () {
             <span>Including delivery</span>
             <div className="cartSummary__price">{total}</div>
           </div>
-          <button className="button button--hyperion cartSummary__button" type="button">
+          <Link to='/cart/payment'>
+            <button className="button button--hyperion cartSummary__button" type="button">
               <span>
                   <span>payment</span>
               </span>
-          </button>
+            </button>
+          </Link>
         </div>
       </div>
   )

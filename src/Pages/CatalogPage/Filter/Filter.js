@@ -6,7 +6,7 @@ import CollapseList from "./Dropdown";
 import FilterList from "../../../Components/Filters/Filter";
 
 const Filter = ({showFilterCategories, searchQuery}) => {
-  const [resources, setResources] = useState(data.products.products);
+  const resources = data.products.products;
   const [categories] = useState(data.products.categories);
   const [filter, setFilter] = useState("all");
   const [filterActivity, setFilterActivity] = useState("");
@@ -48,7 +48,7 @@ const Filter = ({showFilterCategories, searchQuery}) => {
   const filteredResources = showFilterCategories ? filterTypes(filteredResourcesByTypes) : filteredResourcesByTypes;
 
   return (
-      <div>
+      <div className="catalogPage__container">
         <h1>{searchQuery ? `Showing results for '${searchQuery}'` : ''}</h1>
         <div className="container-btn">
           {showFilterCategories && <FilterList filter={filter} handleFilterChange={handleFilterChange}/>}

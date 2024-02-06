@@ -35,7 +35,7 @@ function ProductPage() {
       <section className="productPage">
         <div className="productPage__container">
           <div className="productPage__image">
-            <img src={url} alt={name}/>
+            <img src={`${url}.jpg`} srcSet={`${url}.jpg 500w, ${url}-large.jpg 1200w`} alt={name}/>
           </div>
           <div className="productPage__description">
             <h1>{name}</h1>
@@ -52,7 +52,6 @@ function ProductPage() {
             </div>
           </div>
         </div>
-        <div className="productPage__moreDescription">more description</div>
       </section>
   );
 }
