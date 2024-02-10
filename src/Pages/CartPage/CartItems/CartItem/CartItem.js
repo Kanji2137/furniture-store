@@ -26,7 +26,7 @@ const CartItem = ({quantity, name, url, price, description}) => {
         <div className="cartItem__contentContainer">
           <Link to="/product"
                 state={{name, url, price, description}}>
-            <img alt="furniture" src={`${url}.jpg`}/>
+            <img alt="furniture" src={`${url}.png`}/>
           </Link>
           <h1 className="cartItem__name">{name}</h1>
         </div>

@@ -52,44 +52,76 @@
   ],
   "bestsellers": [
     {
-      "title": "Wooden small chair",
-      "price": "120 $",
-      "url": "../../../images/bestsellers/graphic-one.png"
+      "price": 120,
+      "type": "chair",
+      "name": "Wooden small chair",
+      "description": "Introducing the Sleek Elegance Black Chair, a versatile piece that combines modern design with timeless sophistication. This chair not only enhances your interior decor but also provides a comfortable and stylish seating solution for any room.",
+      "url": "../../../images/products/graphic-one",
+      "room": "Living Room",
+      "color": "black"
     },
     {
-      "title": "Tomo side table",
-      "price": "250 $",
-      "url": "../../../images/bestsellers/graphic-two.png"
+      "price": 250,
+      "type": "desk",
+      "name": "Tomo side table",
+      "description": "Upgrade your workspace with the Executive Comfort Office Chair, a blend of ergonomic design and contemporary style. This chair not only enhances your productivity but also adds a touch of sophistication to your office.",
+      "url": "../../../images/products/graphic-two",
+      "room": "Living Room",
+      "color": "black"
     },
     {
-      "title": "Tomo side table",
-      "price": "680 $",
-      "url": "../../../images/bestsellers/graphic-seven.png"
+      "price": 680,
+      "type": "desk",
+      "name": "Tomo side table",
+      "description": "Introducing the Classic Comfort Upholstered Chair, a timeless piece that combines enduring comfort with a touch of elegance. Crafted with attention to detail, this chair brings both style and relaxation to your home.",
+      "url": "../../../images/products/graphic-seven",
+      "room": "Living Room",
+      "color": "black"
     },
     {
-      "title": "Tomo side table",
-      "price": "220 $",
-      "url": "../../../images/bestsellers/graphic-four.png"
+      "price": 220,
+      "type": "desk",
+      "name": "Tomo side table",
+      "description": "Transform your living space into a haven of comfort and style with our Comfort Haven 3-Seater Sofa. This versatile sofa offers the perfect combination of relaxation and aesthetics, making it the ideal centerpiece for your home.",
+      "url": "../../../images/products/graphic-four",
+      "room": "Living Room",
+      "color": "black"
     },
     {
-      "title": "Tomo side table",
-      "price": "1550 $",
-      "url": "../../../images/bestsellers/graphic-six.png"
+      "price": 1550,
+      "type": "desk",
+      "name": "Tomo side table",
+      "description": "Introducing our Classic Wooden Dining Chair, a timeless piece that combines rustic charm with enduring functionality. Crafted with precision and care, this chair offers both comfort and a touch of nostalgia to your dining or living space.",
+      "url": "../../../images/products/graphic-six",
+      "room": "Living Room",
+      "color": "black"
     },
     {
-      "title": "Tomo side table",
-      "price": "750 $",
-      "url": "../../../images/bestsellers/graphic-six.png"
+      "price": 750,
+      "type": "desk",
+      "name": "Tomo side table",
+      "description": "Upgrade your seating experience with the Modern Elegance Upholstered Chair, a harmonious blend of contemporary design and luxurious comfort. This chair not only exudes sophistication but also provides a cozy spot to unwind and Living Room.",
+      "url": "../../../images/products/graphic-six",
+      "room": "Living Room",
+      "color": "black"
     },
     {
-      "title": "Tomo side table",
-      "price": "300 $",
-      "url": "../../../images/bestsellers/graphic-seven.png"
+      "price": 300,
+      "type": "desk",
+      "name": "Tomo side table",
+      "description": "Illuminate your living space with a touch of contemporary elegance using our Contemporary Elegance Table Lamp. This exquisite lamp not only provides warm and inviting lighting but also adds a dash of sophistication to your home decor.",
+      "url": "../../../images/products/graphic-seven",
+      "room": "Living Room",
+      "color": "black"
     },
     {
-      "title": "Tomo side table",
-      "price": "50 $",
-      "url": "../../../images/bestsellers/graphic-eight.png"
+      "price": 50,
+      "type": "desk",
+      "name": "Tomo side table",
+      "description": "Create a serene outdoor oasis with our Elegant Garden Retreat Chair. Designed for both comfort and style, this chair allows you to Living Room and enjoy your garden in tranquility.",
+      "url": "../../../images/products/graphic-eight",
+      "room": "Living Room",
+      "color": "black"
     }
   ],
   "trends": {
@@ -141,14 +173,14 @@
     ],
     "categories": [
       {
-        "type": "activity",
-        "label": "Activity",
-        "option": "activity",
+        "type": "room",
+        "label": "Room",
+        "option": "room",
         "kinds": [
           "All",
-          "Relax",
-          "Cleaning",
-          "Cooking"
+          "Living Room",
+          "Bedroom",
+          "Bathroom"
         ]
       },
       {
@@ -170,7 +202,7 @@
         "name": "Luxe Comfort 3-Seater Velvet Couch",
         "description": "Indulge in the perfect blend of style and comfort with our Luxe Comfort 3-Seater Velvet Sofa. Designed to elevate your living space, this exquisite sofa exudes timeless elegance and offers a cozy retreat for you and your loved ones.",
         "url": "../../../images/products/couch",
-        "activity": "Relax",
+        "room": "Living Room",
         "color": "black"
       },
       {
@@ -179,7 +211,7 @@
         "name": "Sleek Elegance Black Chair",
         "description": "Introducing the Sleek Elegance Black Chair, a versatile piece that combines modern design with timeless sophistication. This chair not only enhances your interior decor but also provides a comfortable and stylish seating solution for any room.",
         "url": "../../../images/products/black-chair",
-        "activity": "Relax",
+        "room": "Living Room",
         "color": "black"
       },
       {
@@ -188,7 +220,7 @@
         "name": "Executive Comfort Office Chair",
         "description": "Upgrade your workspace with the Executive Comfort Office Chair, a blend of ergonomic design and contemporary style. This chair not only enhances your productivity but also adds a touch of sophistication to your office.",
         "url": "../../../images/products/office-chair",
-        "activity": "Relax",
+        "room": "Living Room",
         "color": "black"
       },
       {
@@ -197,7 +229,7 @@
         "name": "Classic Comfort Upholstered Chair",
         "description": "Introducing the Classic Comfort Upholstered Chair, a timeless piece that combines enduring comfort with a touch of elegance. Crafted with attention to detail, this chair brings both style and relaxation to your home.",
         "url": "../../../images/products/regular-chair",
-        "activity": "Relax",
+        "room": "Living Room",
         "color": "black"
       },
       {
@@ -206,7 +238,7 @@
         "name": "Comfort Haven 3-Seater Sofa",
         "description": "Transform your living space into a haven of comfort and style with our Comfort Haven 3-Seater Sofa. This versatile sofa offers the perfect combination of relaxation and aesthetics, making it the ideal centerpiece for your home.",
         "url": "../../../images/products/regular-couch",
-        "activity": "Relax",
+        "room": "Living Room",
         "color": "black"
       },
       {
@@ -215,16 +247,16 @@
         "name": "Classic Wooden Dining Chair",
         "description": "Introducing our Classic Wooden Dining Chair, a timeless piece that combines rustic charm with enduring functionality. Crafted with precision and care, this chair offers both comfort and a touch of nostalgia to your dining or living space.",
         "url": "../../../images/products/wooden-chairs",
-        "activity": "Relax",
+        "room": "Living Room",
         "color": "white"
       },
       {
         "price": 220,
         "type": "chair",
         "name": "Modern Elegance Upholstered Chair",
-        "description": "Upgrade your seating experience with the Modern Elegance Upholstered Chair, a harmonious blend of contemporary design and luxurious comfort. This chair not only exudes sophistication but also provides a cozy spot to unwind and relax.",
+        "description": "Upgrade your seating experience with the Modern Elegance Upholstered Chair, a harmonious blend of contemporary design and luxurious comfort. This chair not only exudes sophistication but also provides a cozy spot to unwind and Living Room.",
         "url": "../../../images/products/modern-chair",
-        "activity": "Relax",
+        "room": "Living Room",
         "color": "white"
       },
       {
@@ -233,7 +265,7 @@
         "name": "Contemporary Elegance Table Lamp",
         "description": "Illuminate your living space with a touch of contemporary elegance using our Contemporary Elegance Table Lamp. This exquisite lamp not only provides warm and inviting lighting but also adds a dash of sophistication to your home decor.",
         "url": "../../../images/products/lamp",
-        "activity": "Relax",
+        "room": "Living Room",
         "color": "white"
       },
       {
@@ -242,16 +274,16 @@
         "name": "Timeless Elegance Black Classic Couch",
         "description": "Introducing the Timeless Elegance Black Classic Couch, a masterpiece that combines the enduring appeal of classic design with the sophisticated allure of black upholstery. This couch not only serves as a comfortable seating solution but also adds a touch of timeless charm to your living space.",
         "url": "../../../images/products/classic-couch",
-        "activity": "Cleaning",
+        "room": "Bedroom",
         "color": "white"
       },
       {
         "price": 150,
         "type": "chair",
         "name": "Elegant Garden Retreat Chair",
-        "description": "Create a serene outdoor oasis with our Elegant Garden Retreat Chair. Designed for both comfort and style, this chair allows you to relax and enjoy your garden in tranquility.",
+        "description": "Create a serene outdoor oasis with our Elegant Garden Retreat Chair. Designed for both comfort and style, this chair allows you to Living Room and enjoy your garden in tranquility.",
         "url": "../../../images/products/garden-chair",
-        "activity": "Relax",
+        "room": "Living Room",
         "color": "white"
       },
       {
@@ -260,7 +292,7 @@
         "name": "Regal Gold Accent Table Lamp",
         "description": "Illuminate your space with the Regal Gold Accent Table Lamp. Its opulent gold finish and timeless design make it a statement piece that adds a touch of luxury to any room.",
         "url": "../../../images/products/golden-lamp",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -269,7 +301,7 @@
         "name": "Industrial Elegance Metal Desk",
         "description": "Elevate your workspace with our Industrial Elegance Metal Desk. Its rugged yet sophisticated design is perfect for both home offices and corporate settings.",
         "url": "../../../images/products/metal-desk",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -278,7 +310,7 @@
         "name": "Contemporary Bliss Blue Chair",
         "description": "Experience modern comfort with our Contemporary Bliss Blue Chair. Its sleek design and vibrant blue upholstery create a chic and inviting seating solution.",
         "url": "../../../images/products/modern-blue-chair",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -287,7 +319,7 @@
         "name": "Minimalist Modern Office Desk",
         "description": "Achieve a clutter-free workspace with our Minimalist Modern Office Desk. Its clean lines and functional design enhance productivity while maintaining a sleek aesthetic.",
         "url": "../../../images/products/modern-desk",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -296,7 +328,7 @@
         "name": "Sleek Modern Table Lamp",
         "description": "Illuminate your space with the Sleek Modern Table Lamp. Its minimalist design and understated elegance make it a versatile addition to any room.",
         "url": "../../../images/products/modern-lamp",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -305,7 +337,7 @@
         "name": "Professional Office Desk Lamp",
         "description": "Enhance your work environment with the Professional Office Desk Lamp. Its adjustable features and contemporary design offer optimal lighting for productivity.",
         "url": "../../../images/products/office-lamp",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -314,7 +346,7 @@
         "name": "Vibrant Orange Comfort Couch",
         "description": "Add a burst of color to your living room with our Vibrant Orange Comfort Couch. Its bold design and plush cushions create a cozy and inviting atmosphere.",
         "url": "../../../images/products/orange-couch",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -323,7 +355,7 @@
         "name": "Classic Garden Relaxation Chair",
         "description": "Enjoy the simplicity of outdoor living with our Classic Garden Relaxation Chair. Its timeless design and sturdy construction make it a perfect addition to your garden.",
         "url": "../../../images/products/simple-garden-chair",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -332,7 +364,7 @@
         "name": "Clean Slate White Writing Desk",
         "description": "Organize your thoughts with the Clean Slate White Writing Desk. Its pristine design and ample workspace provide a serene environment for creativity.",
         "url": "../../../images/products/white-desk",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -341,7 +373,7 @@
         "name": "Natural Wood Table Lamp",
         "description": "Bring a touch of nature indoors with the Natural Wood Table Lamp. Its rustic charm and warm lighting create a cozy ambiance in any room.",
         "url": "../../../images/products/wooden-lamp",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -350,7 +382,7 @@
         "name": "Rustic Simplicity Wooden Desk",
         "description": "Embrace the beauty of simplicity with our Rustic Simplicity Wooden Desk. Its minimalist design and natural wood finish offer a timeless workspace solution.",
         "url": "../../../images/products/wooden-simple-desk",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
       },
       {
@@ -359,8 +391,80 @@
         "name": "Sunshine Yellow Comfort Couch",
         "description": "Infuse your living space with warmth and cheerfulness with our Sunshine Yellow Comfort Couch. Its vibrant color and plush seating invite relaxation and joy.",
         "url": "../../../images/products/yellow-comfort-couch",
-        "activity": "Cooking",
+        "room": "Bathroom",
         "color": "white"
+      },
+      {
+        "price": 120,
+        "type": "chair",
+        "name": "Wooden small chair",
+        "description": "Introducing the Sleek Elegance Black Chair, a versatile piece that combines modern design with timeless sophistication. This chair not only enhances your interior decor but also provides a comfortable and stylish seating solution for any room.",
+        "url": "../../../images/products/graphic-one",
+        "room": "Living Room",
+        "color": "black"
+      },
+      {
+        "price": 250,
+        "type": "desk",
+        "name": "Tomo side table",
+        "description": "Upgrade your workspace with the Executive Comfort Office Chair, a blend of ergonomic design and contemporary style. This chair not only enhances your productivity but also adds a touch of sophistication to your office.",
+        "url": "../../../images/products/graphic-two",
+        "room": "Living Room",
+        "color": "black"
+      },
+      {
+        "price": 680,
+        "type": "desk",
+        "name": "Tomo side table",
+        "description": "Introducing the Classic Comfort Upholstered Chair, a timeless piece that combines enduring comfort with a touch of elegance. Crafted with attention to detail, this chair brings both style and relaxation to your home.",
+        "url": "../../../images/products/graphic-seven",
+        "room": "Living Room",
+        "color": "black"
+      },
+      {
+        "price": 220,
+        "type": "desk",
+        "name": "Tomo side table",
+        "description": "Transform your living space into a haven of comfort and style with our Comfort Haven 3-Seater Sofa. This versatile sofa offers the perfect combination of relaxation and aesthetics, making it the ideal centerpiece for your home.",
+        "url": "../../../images/products/graphic-four",
+        "room": "Living Room",
+        "color": "black"
+      },
+      {
+        "price": 1550,
+        "type": "desk",
+        "name": "Tomo side table",
+        "description": "Introducing our Classic Wooden Dining Chair, a timeless piece that combines rustic charm with enduring functionality. Crafted with precision and care, this chair offers both comfort and a touch of nostalgia to your dining or living space.",
+        "url": "../../../images/products/graphic-six",
+        "room": "Living Room",
+        "color": "black"
+      },
+      {
+        "price": 750,
+        "type": "desk",
+        "name": "Tomo side table",
+        "description": "Upgrade your seating experience with the Modern Elegance Upholstered Chair, a harmonious blend of contemporary design and luxurious comfort. This chair not only exudes sophistication but also provides a cozy spot to unwind and Living Room.",
+        "url": "../../../images/products/graphic-six",
+        "room": "Living Room",
+        "color": "black"
+      },
+      {
+        "price": 300,
+        "type": "desk",
+        "name": "Tomo side table",
+        "description": "Illuminate your living space with a touch of contemporary elegance using our Contemporary Elegance Table Lamp. This exquisite lamp not only provides warm and inviting lighting but also adds a dash of sophistication to your home decor.",
+        "url": "../../../images/products/graphic-seven",
+        "room": "Living Room",
+        "color": "black"
+      },
+      {
+        "price": 50,
+        "type": "desk",
+        "name": "Tomo side table",
+        "description": "Create a serene outdoor oasis with our Elegant Garden Retreat Chair. Designed for both comfort and style, this chair allows you to Living Room and enjoy your garden in tranquility.",
+        "url": "../../../images/products/graphic-eight",
+        "room": "Living Room",
+        "color": "black"
       }
     ]
   }

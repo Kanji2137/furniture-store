@@ -10,10 +10,12 @@ function CatalogPage({searchQueryDefault}) {
   const finalSearchQuery = isFromSearchBar ? searchQueryDefault : searchQuery || '';
   const showFilterCategories = finalSearchQuery === "";
 
+  const { room } = location.state !== null ? location.state : { room: "all" };
+
   return (
       <section className="catalogPage">
         <div className="catalogPage__title">Catalog</div>
-        <Filter searchQuery={finalSearchQuery} showFilterCategories={showFilterCategories}/>
+        <Filter room={room} searchQuery={finalSearchQuery} showFilterCategories={showFilterCategories}/>
       </section>
   );
 }

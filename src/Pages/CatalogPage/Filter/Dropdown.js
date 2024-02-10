@@ -1,7 +1,7 @@
 import {useState} from "react";
 
-const Dropdown = ({label, kinds, handleFilter}) => {
-  const [selectedItem, setSelectedItem] = useState("");
+const Dropdown = ({label, kinds, handleFilter, byRoom}) => {
+  const [selectedItem, setSelectedItem] = useState(byRoom);
 
   const items = kinds
 
@@ -15,7 +15,6 @@ const Dropdown = ({label, kinds, handleFilter}) => {
       handleFilter(value);
     }
   }
-
   return (
       <div className="dropdown">
         <h1>{label}</h1>

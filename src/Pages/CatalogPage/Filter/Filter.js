@@ -5,19 +5,19 @@ import Product from "../Product/Product";
 import CollapseList from "./Dropdown";
 import FilterList from "../../../Components/Filters/Filter";
 
-const Filter = ({showFilterCategories, searchQuery}) => {
+const Filter = ({room, showFilterCategories, searchQuery}) => {
   const resources = data.products.products;
   const [categories] = useState(data.products.categories);
   const [filter, setFilter] = useState("all");
-  const [filterActivity, setFilterActivity] = useState("");
+  const [filterRoom, setFilterRoom] = useState(room);
   const [filterColor, setFilterColor] = useState("");
 
   const handleFilterChange = (newFilter) => {
     setFilter(newFilter);
   };
 
-  const handleFilterActivityChange = (newFilterActivity) => {
-    setFilterActivity(newFilterActivity);
+  const handleFilterRoomChange = (newFilterRoom) => {
+    setFilterRoom(newFilterRoom);
   };
 
   const handleFilterColorChange = (newFilterColor) => {
@@ -32,9 +32,9 @@ const Filter = ({showFilterCategories, searchQuery}) => {
 
   const filterCategories = (resourcesToFilter) => {
     return resourcesToFilter.filter((resource) => {
-      const filterMatchActivity = filterActivity === "all" || resource.activity.includes(filterActivity);
+      const filterMatchRoom = filterRoom === "all" || resource.room.includes(filterRoom);
       const filterMatchColor = filterColor === "all" || resource.color.includes(filterColor);
-      return filterMatchActivity && filterMatchColor;
+      return filterMatchRoom && filterMatchColor;
     });
   };
 
@@ -52,12 +52,14 @@ const Filter = ({showFilterCategories, searchQuery}) => {
         <h1>{searchQuery ? `Showing results for '${searchQuery}'` : ''}</h1>
         <div className="container-btn">
           {showFilterCategories && <FilterList filter={filter} handleFilterChange={handleFilterChange}/>}
+
           {categories.map((item) => (
               <CollapseList
                   key={item.label}
                   label={item.label}
                   kinds={item.kinds}
-                  handleFilter={item.option === "activity" ? handleFilterActivityChange : handleFilterColorChange}
+                  handleFilter={item.option === "room" ? handleFilterRoomChange : handleFilterColorChange}
+                  byRoom={room === "all" ? "" : room}
               />
           ))}
         </div>

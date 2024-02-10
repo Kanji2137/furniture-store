@@ -12,7 +12,7 @@ function Trends () {
                     <h1>{sub_title}</h1>
                     <a className="link--carpo link">See now</a>
                 </div>
-                <img src={url} alt="seats"/>
+                <img src={`${url}.jpg`} alt="seats"/>
             </div>
         );
       };

@@ -7,10 +7,10 @@ import {BsHeart} from "react-icons/bs";
 import {wishlistActions} from "../../store/wishlist-slice";
 
 function ProductPage() {
-  const location = useLocation()
-  const {name, url, price, description} = location.state
+  const location = useLocation();
+  const {name, url, price, description} = location.state;
   const dispatch = useDispatch();
-  const id = url
+  const id = url;
   const addToCart = () => {
     dispatch(cartActions.addToCart({
       name,
@@ -35,7 +35,7 @@ function ProductPage() {
       <section className="productPage">
         <div className="productPage__container">
           <div className="productPage__image">
-            <img src={`${url}.jpg`} srcSet={`${url}.jpg 500w, ${url}-large.jpg 1200w`} alt={name}/>
+            <img src={`${url}.png`} srcSet={`${url}.png 500w, ${url}-large.png 1200w`} alt={name}/>
           </div>
           <div className="productPage__description">
             <h1>{name}</h1>
