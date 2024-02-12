@@ -1,0 +1,29 @@
+.inspirationPage {
+  font-family: "POPPINS", sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  text-align: center;
+}
+.inspirationPage__wrapper {
+  width: 96%;
+  max-width: 1140px;
+  margin: 0 auto 4rem auto;
+}
+.inspirationPage p {
+  font-size: 1.4rem;
+  text-align: left;
+  letter-spacing: 0.7px;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.inspirationPage img {
+  width: 100%;
+  margin-bottom: -1rem;
+  margin-top: 5rem;
+  object-fit: cover;
+  backface-visibility: hidden;
+  height: 350px;
+  object-position: 100% 70%;
+}
+
+/*# sourceMappingURL=inspirations.css.map */

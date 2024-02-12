@@ -1,4 +1,49 @@
 {
+  "inspirationsData": [
+  {
+    "title": "\nExploring Luxury Furniture: A Fusion of Elegance and Craftsmanship\n\n",
+    "description": "Luxury furniture epitomizes opulence, sophistication, and exceptional artisanship, elevating interior spaces into realms of unparalleled beauty and comfort. It's not merely about functionality but about creating an ambiance that speaks volumes about one's discerning taste and appreciation for finer things in life. In this discourse, we embark on a journey with Alma de Luce, delving into the essence of luxury furniture projects. Our aim is to unravel the intricacies that make these creations extraordinary, from their timeless elegance to the profound impact of statement pieces. Join us as we explore the fusion of tradition and modernity, where each piece tells a story of exquisite craftsmanship and individuality.",
+    "image": "../../../images/inspirations/inspirations-1.jpg"
+  },
+  {
+    "title": "Timeless Elegance: The Everlasting Charm of Luxury Furniture\n\n",
+    "description": "Timeless elegance is the cornerstone of luxury furniture, transcending fleeting trends and embracing enduring beauty. Beyond mere aesthetics, it symbolizes a commitment to impeccable craftsmanship and design integrity. Each piece resonates with a sense of refinement that withstands the test of time, becoming a cherished heirloom for generations to come.\n\nAt the heart of timeless elegance lies a delicate balance between tradition and innovation. Classic motifs intertwine with contemporary influences, resulting in furniture pieces that exude a timeless allure while remaining relevant in a modern context. It's a testament to the enduring appeal of well-crafted design that speaks to the soul and stands as a beacon of timeless sophistication.",
+    "image": "../../../images/inspirations/inspirations-2.jpg"
+  },
+  {
+    "title": "Crafting Bespoke Excellence: The Art of Personalization\n\n",
+    "description": "In the realm of luxury furniture, customization is paramount. It's about more than just creating pieces that fulfill functional needs; it's about crafting bespoke masterpieces that resonate with the individuality of their owners. Architects and designers collaborate closely with clients, translating their visions into tangible expressions of luxury and exclusivity.\n\nFrom selecting the finest materials to refining every intricate detail, customization elevates luxury furniture to unparalleled heights of excellence. Each piece becomes a reflection of the client's unique personality and lifestyle, imbued with a sense of intimacy and authenticity that cannot be replicated. It's this bespoke approach that transforms furniture into objets d'art, cherished for their inherent beauty and personal significance.",
+    "image": "../../../images/inspirations/inspirations-3.jpg"
+  },
+  {
+    "title": "Opulent Materials: Elevating Luxury to New Heights\n\n",
+    "description": "Opulence lies at the heart of luxury furniture, manifesting in the exquisite materials that adorn each piece. From sumptuous silks to lustrous leathers, these materials evoke a sense of lavishness and indulgence, transforming furniture into veritable works of art. It's a celebration of craftsmanship and luxury, where every stitch and every grain tells a story of unparalleled beauty and sophistication.\n\nLuxury furniture is a testament to the enduring allure of opulent materials, showcasing the artistry of skilled craftsmen and the inherent beauty of natural elements. Whether it's the rich patina of aged wood or the soft caress of velvet, these materials imbue each piece with a sense of warmth and elegance that is truly timeless.\n\n",
+    "image": "../../../images/inspirations/inspirations-4.jpg"
+  }
+],
+  "aboutPage": {
+    "title": "We are Edge. We're here to redefine restoration.",
+    "subTitle": "Edge. is the UK's premier furniture repair destination, dedicated to providing seamless solutions and absolute assurance for homeowners of all tastes and styles.\n\n",
+    "header": "Our mission.",
+    "text": [
+      "The Chair.",
+      "Oh, what a cornerstone.",
+      "A sanctuary. A throne. A comfort. A solace.",
+      "No matter the occasion, the chair often provides the solution.",
+      "Stability. Relaxed moments. Supportive embrace. Cozy corners.",
+      "Various desires lead us to take a seat. Yet, a shared sensation unites us upon rising – refreshed, content, rejuvenated, and centered.",
+      "Surely, some complain about stiff backs, uncomfortable cushions, wobbly legs, but these grievances soon dissipate.\nThe true dismay emerges when you're deprived of its embrace. When discomfort intervenes. When life's pressures confine you.",
+      "A chair that's out of commission? One that doesn't offer solace as expected? This fosters a distinct discontent. A frustration that often lingers before it alleviates.",
+      "This dilemma arises because restoring your chair presents challenges akin to navigating a maze.",
+      "Scarce parts.\nConfusing terminology.\nOverwhelming options.\nUnexpected costs.",
+      "E-commerce stands as a beacon of modern convenience. Yet, the furniture repair sector clings to outdated methods.",
+      "Our mission is to redress this imbalance. Our commitment unwavering.",
+      "We aim to fuse traditional craftsmanship with contemporary service standards. Skilled hands with tech-driven precision.\nBrick-and-mortar workshops with real-time updates.",
+      "Mediocrity rarely garners praise. Thus, we've launched a venture entirely focused on you.",
+      "To prioritize the sitter.",
+      "To ensure that every chair provides the perfect perch."
+    ]
+  },
   "formAddress": [
     {
       "className": "deliveryAddress__name",
@@ -129,12 +174,12 @@
       {
         "title": "New Collection",
         "sub_title": "HALF&HALF CHAIRS",
-        "url": "../../../images/trends/seats"
+        "url": "../../../images/trends/couch"
       },
       {
         "title": "Trends",
         "sub_title": "Warm Essentials",
-        "url": "../../../images/trends/sofa"
+        "url": "../../../images/trends/bathroom"
       }
     ],
     "trendsNewsletter": {
@@ -144,7 +189,7 @@
       },
       "newsletter": {
         "description": "Subscribe to the Edge newsletter! You will be the first to learn the latest interior design and special offers.",
-        "url": "../../../images/trends/sofa"
+        "url": "../../../images/trends/couch2"
       }
     }
   },

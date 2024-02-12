@@ -10,6 +10,8 @@
 @import "./Pages/ProductPage/productPage.css";
 @import "./Pages/CartPage/cartPage.css";
 @import "./Pages/PaymentPage/paymentPage.css";
+@import "./Pages/AboutPage/aboutPage.css";
+@import "./Pages/Inspirations/inspirations.css";
 .overflow-hidden {
   overflow: hidden;
 }

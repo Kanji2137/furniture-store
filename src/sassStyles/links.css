@@ -22,20 +22,29 @@ a {
   outline: none;
 }
 
+.link--carpo {
+  color: #000000;
+}
 .link--carpo::before {
   transform-origin: 0 50%;
   transform: scale3d(0, 1, 1);
   transition: transform 0.3s;
+  color: #000000;
 }
 .link--carpo:hover::before {
   transform: scale3d(1, 1, 1);
+  color: #000000;
 }
 .link--carpo:hover::after {
   transform: scale3d(0, 1, 1);
+  color: #000000;
 }
 .link--carpo::after {
   content: "";
   top: calc(100% + 4px);
   transition: transform 0.3s;
   transform-origin: 100% 50%;
+  color: #000000;
 }
+
+/*# sourceMappingURL=links.css.map */

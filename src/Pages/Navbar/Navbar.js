@@ -15,6 +15,8 @@ import CatalogPage from "../CatalogPage/CatalogPage";
 import ProductPage from "../ProductPage/ProductPage";
 import CartPage from "../CartPage/CartPage";
 import PaymentPage from "../PaymentPage/PaymentPage";
+import AboutPage from "../AboutPage/AboutPage";
+import Inspirations from "../Inspirations/Inspirations";
 
 import ScrollToTop from "../../Components/ScrollToTop";
 
@@ -84,8 +86,8 @@ function Navbar() {
             </div>
             <div className="nav-links" onClick={checkHandler}>
               <Link to="/shop">Catalog</Link>
-              <Link to="/about">Inspirations</Link>
-              <Link to="/service">About Us</Link>
+              <Link to="/inspirations">Inspirations</Link>
+              <Link to="/about">About Us</Link>
               <Link to="/contact">Contact</Link>
             </div>
             <SearchBar/>
@@ -103,7 +105,8 @@ function Navbar() {
             <Route path="/shop" element={<CatalogPage searchQuery=""/>}/>
             <Route path="/" element={<HomePage/>}/>
             <Route path="/product" element={<ProductPage/>}/>
-            <Route path="/about"/>
+            <Route path="/about" element={<AboutPage/>}/>
+            <Route path="/inspirations" element={<Inspirations/>}/>
           </Routes>
           <Footer/>
         </div>

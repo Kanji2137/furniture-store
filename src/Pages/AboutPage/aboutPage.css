@@ -1,0 +1,35 @@
+.AboutPageSection {
+  font-family: "POPPINS", sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  text-align: center;
+}
+.AboutPageSection .wrapper-inner {
+  max-width: 800px;
+}
+.AboutPageSection h1 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.AboutPageSection h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.AboutPageSection p {
+  font-size: 1.4rem;
+  text-align: left;
+  letter-spacing: 0.7px;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.AboutPageSection img {
+  width: 100%;
+  margin-bottom: -1rem;
+  margin-top: 5rem;
+  object-fit: cover;
+  backface-visibility: hidden;
+  height: 350px;
+  object-position: 100% 70%;
+}
+
+/*# sourceMappingURL=aboutPage.css.map */
