@@ -1,0 +1,128 @@
+@import "../../sassStyles/variables.scss";
+
+.openingHours {
+  &Wrapper {
+    --primaryBackgroundColor: #f3f3f3;
+    --primaryBackgroundColorDarker: #e5e5e5;
+    --secondaryBackgroundColor: #ff5e57;
+    --gridGap: 4px;
+    --colsNumber: 2;
+    background-color: #fff;
+    padding: 0;
+    display: grid;
+    grid-gap: calc(var(--gridGap) * 3);
+    line-height: initial;
+    border-radius: 0.625em;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+
+    h1 {
+      color: $color-gray-dark-3;
+      margin: 0;
+    }
+  }
+
+  &--group {
+    display: grid;
+    grid-gap: var(--gridGap);
+  }
+
+  &--row {
+    display: grid;
+    grid-template-columns: repeat(var(--colsNumber), 1fr);
+    grid-gap: var(--gridGap);
+  }
+
+  &--row > * {
+    transition: all 0.3s;
+  }
+
+  &--row:hover > * {
+    background-color: var(--primaryBackgroundColorDarker);
+  }
+
+  &--row__head {
+    background: #fff;
+    text-transform: uppercase;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  &--row__subhead {
+    display: block;
+  }
+
+  &--content {
+    background-color: var(--primaryBackgroundColor);
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &--content > * {
+    display: block;
+    width: 100%;
+  }
+
+  &--hours {
+    text-align: center;
+    background-color: var(--primaryBackgroundColor);
+  }
+
+  &--content,
+  &--hours {
+    display: flex;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  &--hours {
+    justify-content: center;
+  }
+
+  &--row__head &--content {
+    background-color: var(--secondaryBackgroundColor);
+    color: #fff;
+    justify-content: center;
+  }
+
+  &--row__betweenRows {
+    grid-template-columns: 1fr;
+  }
+
+  &--row__betweenRows &--content {
+    background-color: var(--secondaryBackgroundColor);
+    color: #fff;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+
+  &--row__head &--content > * {
+    text-align: center;
+  }
+
+  &--row__2cols &--content:last-child,
+  &--row__2cols &--hours {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .openingHours {
+    &Wrapper {
+      --gridGap: 2px;
+    }
+
+    &--content,
+    &--hours {
+      padding: 1rem 0.5rem;
+      border-radius: 0;
+    }
+
+    &--row__head {
+      font-size: 1rem;
+    }
+  }
+}

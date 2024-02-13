@@ -56,5 +56,10 @@
     width: calc(50% - 0.5rem);
   }
 }
+@media (max-width: 500px) {
+  .product {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=product.css.map */

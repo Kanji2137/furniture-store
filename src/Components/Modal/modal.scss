@@ -1,0 +1,71 @@
+@import "../../sassStyles/variables.scss";
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.modal {
+  &__background {
+    background: rgba(0, 0, 0, .5);
+    opacity: 0.8;
+    inset: 0;
+    position: fixed;
+  }
+  &__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483647;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  &__item {
+    max-width: 73rem;
+    width: 100%;
+    border-radius: 0.6rem;
+    inset: 10rem 0;
+    --tw-bg-opacity: 1;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: auto;
+    padding: 25px 25px 0;
+    border-bottom: 25px solid transparent;
+    max-height: 95%;
+    background: #fff;
+    cursor: auto;
+    white-space: normal;
+  }
+
+  &__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    &--btn {
+      border: none;
+      background-color: transparent;
+      font-size: 2rem;
+      margin-right: 1rem;
+      text-align: end;
+      cursor: pointer;
+      right: 1rem;
+      position: absolute;
+      width: fit-content;
+    }
+  }
+}
+
+@media (min-width: 830px) {
+  .modal {
+    &__item {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+}

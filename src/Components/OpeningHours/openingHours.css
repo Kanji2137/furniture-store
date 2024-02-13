@@ -1,0 +1,102 @@
+.openingHoursWrapper {
+  --primaryBackgroundColor: #f3f3f3;
+  --primaryBackgroundColorDarker: #e5e5e5;
+  --secondaryBackgroundColor: #ff5e57;
+  --gridGap: 4px;
+  --colsNumber: 2;
+  background-color: #fff;
+  padding: 0;
+  display: grid;
+  grid-gap: calc(var(--gridGap) * 3);
+  line-height: initial;
+  border-radius: 0.625em;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+.openingHoursWrapper h1 {
+  color: #000000;
+  margin: 0;
+}
+.openingHours--group {
+  display: grid;
+  grid-gap: var(--gridGap);
+}
+.openingHours--row {
+  display: grid;
+  grid-template-columns: repeat(var(--colsNumber), 1fr);
+  grid-gap: var(--gridGap);
+}
+.openingHours--row > * {
+  transition: all 0.3s;
+}
+.openingHours--row:hover > * {
+  background-color: var(--primaryBackgroundColorDarker);
+}
+.openingHours--row__head {
+  background: #fff;
+  text-transform: uppercase;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+.openingHours--row__subhead {
+  display: block;
+}
+.openingHours--content {
+  background-color: var(--primaryBackgroundColor);
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+}
+.openingHours--content > * {
+  display: block;
+  width: 100%;
+}
+.openingHours--hours {
+  text-align: center;
+  background-color: var(--primaryBackgroundColor);
+}
+.openingHours--content, .openingHours--hours {
+  display: flex;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  align-items: center;
+}
+.openingHours--hours {
+  justify-content: center;
+}
+.openingHours--row__head .openingHours--content {
+  background-color: var(--secondaryBackgroundColor);
+  color: #fff;
+  justify-content: center;
+}
+.openingHours--row__betweenRows {
+  grid-template-columns: 1fr;
+}
+.openingHours--row__betweenRows .openingHours--content {
+  background-color: var(--secondaryBackgroundColor);
+  color: #fff;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.openingHours--row__head .openingHours--content > * {
+  text-align: center;
+}
+.openingHours--row__2cols .openingHours--content:last-child, .openingHours--row__2cols .openingHours--hours {
+  grid-column: 2/span 2;
+}
+
+@media screen and (max-width: 425px) {
+  .openingHoursWrapper {
+    --gridGap: 2px;
+  }
+  .openingHours--content, .openingHours--hours {
+    padding: 1rem 0.5rem;
+    border-radius: 0;
+  }
+  .openingHours--row__head {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=openingHours.css.map */

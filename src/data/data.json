@@ -1,4 +1,7 @@
 {
+  "locationInfo": {
+    "description": "Nestled in the <strong>heart of London's</strong> bustling cityscape,<strong> Edge Furniture at 87 Elmwood Avenue</strong> stands as the premier destination for those seeking unparalleled expertise and professionalism in the realm of furniture solutions. <br/> <br/>Our dedicated team boasts a wealth of experience and a proven track record of excellence in crafting, restoring, and customizing furniture pieces of all types. <br/> <br/>Whether you're in need of refurbishing a timeless antique, revitalizing a contemporary piece, or seeking bespoke designs tailored to your unique taste, our craftsmen are equipped with the skills and precision to exceed your expectations. <br/> <br/><strong>Conveniently situated in the vibrant Elmwood Avenue district</strong>, our location offers easy access for all your furniture needs. At Edge Furniture, transparency is paramount."
+  },
   "inspirationsData": [
   {
     "title": "\nExploring Luxury Furniture: A Fusion of Elegance and Craftsmanship\n\n",
@@ -103,70 +106,70 @@
       "description": "Introducing the Sleek Elegance Black Chair, a versatile piece that combines modern design with timeless sophistication. This chair not only enhances your interior decor but also provides a comfortable and stylish seating solution for any room.",
       "url": "../../../images/products/graphic-one",
       "room": "Living Room",
-      "color": "black"
+      "color": "wooden"
     },
     {
       "price": 250,
-      "type": "desk",
-      "name": "Tomo side table",
-      "description": "Upgrade your workspace with the Executive Comfort Office Chair, a blend of ergonomic design and contemporary style. This chair not only enhances your productivity but also adds a touch of sophistication to your office.",
+      "type": "lamp",
+      "name": "DAKWA Nordic Table Desktop Lamp",
+      "description": "The elegant sleek look of this contemporary lamp elevates the aesthetic of your home. This modern table lamp is best for bedroom, living room, baby room, office, yoga studio lighting, nursery, dresser, coffee table, college dorm, cafe, bookcase in your library or den.",
       "url": "../../../images/products/graphic-two",
       "room": "Living Room",
       "color": "black"
     },
     {
       "price": 680,
-      "type": "desk",
-      "name": "Tomo side table",
-      "description": "Introducing the Classic Comfort Upholstered Chair, a timeless piece that combines enduring comfort with a touch of elegance. Crafted with attention to detail, this chair brings both style and relaxation to your home.",
-      "url": "../../../images/products/graphic-seven",
+      "type": "vase",
+      "name": "Love in Bloom vase",
+      "description": "Seletti embraces both artistic originality and Italian excellence to produce a homeware range that caters to a unique and fun lifestyle. This Love in Bloom vase is crafted from fine white porcelain and shaped like an anatomical heart.",
+      "url": "../../../images/products/graphic-five",
       "room": "Living Room",
-      "color": "black"
+      "color": "white"
     },
     {
       "price": 220,
-      "type": "desk",
-      "name": "Tomo side table",
-      "description": "Transform your living space into a haven of comfort and style with our Comfort Haven 3-Seater Sofa. This versatile sofa offers the perfect combination of relaxation and aesthetics, making it the ideal centerpiece for your home.",
+      "type": "chair",
+      "name": "Metal Stool - Black",
+      "description": "Transform your living space into a haven of comfort and style with our Comfort Metal Stool - Black. This classic metal stool is perfect for seating those extra guests. Its simple style means it will look fabulous in and any kitchen or dining room.",
       "url": "../../../images/products/graphic-four",
       "room": "Living Room",
       "color": "black"
     },
     {
       "price": 1550,
-      "type": "desk",
-      "name": "Tomo side table",
-      "description": "Introducing our Classic Wooden Dining Chair, a timeless piece that combines rustic charm with enduring functionality. Crafted with precision and care, this chair offers both comfort and a touch of nostalgia to your dining or living space.",
+      "type": "candle",
+      "name": "Ordinate Bubble Candle",
+      "description": "Candle: made of 100% environmentally friendly, unscented soy wax and beeswax. Thanks to the high-quality composition, the candle burns evenly and has a burning time of up to 10 hours.",
       "url": "../../../images/products/graphic-six",
       "room": "Living Room",
-      "color": "black"
+      "color": "white"
     },
     {
       "price": 750,
-      "type": "desk",
-      "name": "Tomo side table",
-      "description": "Upgrade your seating experience with the Modern Elegance Upholstered Chair, a harmonious blend of contemporary design and luxurious comfort. This chair not only exudes sophistication but also provides a cozy spot to unwind and Living Room.",
+      "type": "candle",
+      "name": "Small Ordinate Bubble Candle",
+      "description": "Candle: made of 100% environmentally friendly, unscented soy wax and beeswax. Thanks to the high-quality composition, the candle burns evenly and has a burning time of up to 10 hours.",
       "url": "../../../images/products/graphic-six",
       "room": "Living Room",
-      "color": "black"
+      "color": "white"
     },
     {
       "price": 300,
       "type": "desk",
-      "name": "Tomo side table",
-      "description": "Illuminate your living space with a touch of contemporary elegance using our Contemporary Elegance Table Lamp. This exquisite lamp not only provides warm and inviting lighting but also adds a dash of sophistication to your home decor.",
+      "name": "BURVIK tea table",
+      "description": "Enhance your tea time ambiance with a touch of contemporary elegance using our BURVIK Tea Table. This exquisite table not only provides a perfect setting for enjoying your favorite brew but also adds a dash of sophistication to your living space.",
       "url": "../../../images/products/graphic-seven",
       "room": "Living Room",
-      "color": "black"
+      "color": "wooden"
     },
     {
       "price": 50,
-      "type": "desk",
-      "name": "Tomo side table",
-      "description": "Create a serene outdoor oasis with our Elegant Garden Retreat Chair. Designed for both comfort and style, this chair allows you to Living Room and enjoy your garden in tranquility.",
+      "type": "chair",
+      "name": "LINEA RMT6",
+      "description": "The Linea RMT6 chair was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
       "url": "../../../images/products/graphic-eight",
       "room": "Living Room",
-      "color": "black"
+      "color": "wooden"
     }
   ],
   "trends": {
@@ -214,6 +217,10 @@
       {
         "type": "desk",
         "name": "Desks"
+      },
+      {
+        "type": "vase",
+        "name": "Vases"
       }
     ],
     "categories": [
@@ -225,7 +232,9 @@
           "All",
           "Living Room",
           "Bedroom",
-          "Bathroom"
+          "Bathroom",
+          "Kitchen",
+          "Garden"
         ]
       },
       {
@@ -236,7 +245,12 @@
           "All",
           "black",
           "orange",
-          "white"
+          "white",
+          "green",
+          "wooden",
+          "gray",
+          "brown",
+          "blue"
         ]
       }
     ],
@@ -248,7 +262,7 @@
         "description": "Indulge in the perfect blend of style and comfort with our Luxe Comfort 3-Seater Velvet Sofa. Designed to elevate your living space, this exquisite sofa exudes timeless elegance and offers a cozy retreat for you and your loved ones.",
         "url": "../../../images/products/couch",
         "room": "Living Room",
-        "color": "black"
+        "color": "green"
       },
       {
         "price": 100,
@@ -266,7 +280,7 @@
         "description": "Upgrade your workspace with the Executive Comfort Office Chair, a blend of ergonomic design and contemporary style. This chair not only enhances your productivity but also adds a touch of sophistication to your office.",
         "url": "../../../images/products/office-chair",
         "room": "Living Room",
-        "color": "black"
+        "color": "gray"
       },
       {
         "price": 300,
@@ -275,7 +289,7 @@
         "description": "Introducing the Classic Comfort Upholstered Chair, a timeless piece that combines enduring comfort with a touch of elegance. Crafted with attention to detail, this chair brings both style and relaxation to your home.",
         "url": "../../../images/products/regular-chair",
         "room": "Living Room",
-        "color": "black"
+        "color": "wooden"
       },
       {
         "price": 400,
@@ -284,7 +298,7 @@
         "description": "Transform your living space into a haven of comfort and style with our Comfort Haven 3-Seater Sofa. This versatile sofa offers the perfect combination of relaxation and aesthetics, making it the ideal centerpiece for your home.",
         "url": "../../../images/products/regular-couch",
         "room": "Living Room",
-        "color": "black"
+        "color": "brown"
       },
       {
         "price": 250,
@@ -293,7 +307,7 @@
         "description": "Introducing our Classic Wooden Dining Chair, a timeless piece that combines rustic charm with enduring functionality. Crafted with precision and care, this chair offers both comfort and a touch of nostalgia to your dining or living space.",
         "url": "../../../images/products/wooden-chairs",
         "room": "Living Room",
-        "color": "white"
+        "color": "wooden"
       },
       {
         "price": 220,
@@ -319,8 +333,8 @@
         "name": "Timeless Elegance Black Classic Couch",
         "description": "Introducing the Timeless Elegance Black Classic Couch, a masterpiece that combines the enduring appeal of classic design with the sophisticated allure of black upholstery. This couch not only serves as a comfortable seating solution but also adds a touch of timeless charm to your living space.",
         "url": "../../../images/products/classic-couch",
-        "room": "Bedroom",
-        "color": "white"
+        "room": "Living Room",
+        "color": "black"
       },
       {
         "price": 150,
@@ -328,7 +342,7 @@
         "name": "Elegant Garden Retreat Chair",
         "description": "Create a serene outdoor oasis with our Elegant Garden Retreat Chair. Designed for both comfort and style, this chair allows you to Living Room and enjoy your garden in tranquility.",
         "url": "../../../images/products/garden-chair",
-        "room": "Living Room",
+        "room": "Garden",
         "color": "white"
       },
       {
@@ -337,8 +351,8 @@
         "name": "Regal Gold Accent Table Lamp",
         "description": "Illuminate your space with the Regal Gold Accent Table Lamp. Its opulent gold finish and timeless design make it a statement piece that adds a touch of luxury to any room.",
         "url": "../../../images/products/golden-lamp",
-        "room": "Bathroom",
-        "color": "white"
+        "room": "Living Room",
+        "color": "black"
       },
       {
         "price": 220,
@@ -346,7 +360,7 @@
         "name": "Industrial Elegance Metal Desk",
         "description": "Elevate your workspace with our Industrial Elegance Metal Desk. Its rugged yet sophisticated design is perfect for both home offices and corporate settings.",
         "url": "../../../images/products/metal-desk",
-        "room": "Bathroom",
+        "room": "Living Room",
         "color": "white"
       },
       {
@@ -355,8 +369,8 @@
         "name": "Contemporary Bliss Blue Chair",
         "description": "Experience modern comfort with our Contemporary Bliss Blue Chair. Its sleek design and vibrant blue upholstery create a chic and inviting seating solution.",
         "url": "../../../images/products/modern-blue-chair",
-        "room": "Bathroom",
-        "color": "white"
+        "room": "Living Room",
+        "color": "blue"
       },
       {
         "price": 90,
@@ -364,8 +378,8 @@
         "name": "Minimalist Modern Office Desk",
         "description": "Achieve a clutter-free workspace with our Minimalist Modern Office Desk. Its clean lines and functional design enhance productivity while maintaining a sleek aesthetic.",
         "url": "../../../images/products/modern-desk",
-        "room": "Bathroom",
-        "color": "white"
+        "room": "Living Room",
+        "color": "wooden"
       },
       {
         "price": 40,
@@ -373,16 +387,16 @@
         "name": "Sleek Modern Table Lamp",
         "description": "Illuminate your space with the Sleek Modern Table Lamp. Its minimalist design and understated elegance make it a versatile addition to any room.",
         "url": "../../../images/products/modern-lamp",
-        "room": "Bathroom",
-        "color": "white"
+        "room": "Living Room",
+        "color": "wooden"
       },
       {
         "price": 70,
-        "type": "chair",
+        "type": "lamp",
         "name": "Professional Office Desk Lamp",
         "description": "Enhance your work environment with the Professional Office Desk Lamp. Its adjustable features and contemporary design offer optimal lighting for productivity.",
         "url": "../../../images/products/office-lamp",
-        "room": "Bathroom",
+        "room": "Living Room",
         "color": "white"
       },
       {
@@ -391,8 +405,8 @@
         "name": "Vibrant Orange Comfort Couch",
         "description": "Add a burst of color to your living room with our Vibrant Orange Comfort Couch. Its bold design and plush cushions create a cozy and inviting atmosphere.",
         "url": "../../../images/products/orange-couch",
-        "room": "Bathroom",
-        "color": "white"
+        "room": "Living Room",
+        "color": "orange"
       },
       {
         "price": 30,
@@ -400,8 +414,8 @@
         "name": "Classic Garden Relaxation Chair",
         "description": "Enjoy the simplicity of outdoor living with our Classic Garden Relaxation Chair. Its timeless design and sturdy construction make it a perfect addition to your garden.",
         "url": "../../../images/products/simple-garden-chair",
-        "room": "Bathroom",
-        "color": "white"
+        "room": "Garden",
+        "color": "gray"
       },
       {
         "price": 250,
@@ -409,7 +423,7 @@
         "name": "Clean Slate White Writing Desk",
         "description": "Organize your thoughts with the Clean Slate White Writing Desk. Its pristine design and ample workspace provide a serene environment for creativity.",
         "url": "../../../images/products/white-desk",
-        "room": "Bathroom",
+        "room": "Living Room",
         "color": "white"
       },
       {
@@ -418,8 +432,8 @@
         "name": "Natural Wood Table Lamp",
         "description": "Bring a touch of nature indoors with the Natural Wood Table Lamp. Its rustic charm and warm lighting create a cozy ambiance in any room.",
         "url": "../../../images/products/wooden-lamp",
-        "room": "Bathroom",
-        "color": "white"
+        "room": "Living Room",
+        "color": "wooden"
       },
       {
         "price": 50,
@@ -427,8 +441,8 @@
         "name": "Rustic Simplicity Wooden Desk",
         "description": "Embrace the beauty of simplicity with our Rustic Simplicity Wooden Desk. Its minimalist design and natural wood finish offer a timeless workspace solution.",
         "url": "../../../images/products/wooden-simple-desk",
-        "room": "Bathroom",
-        "color": "white"
+        "room": "Living Room",
+        "color": "wooden"
       },
       {
         "price": 500,
@@ -436,8 +450,8 @@
         "name": "Sunshine Yellow Comfort Couch",
         "description": "Infuse your living space with warmth and cheerfulness with our Sunshine Yellow Comfort Couch. Its vibrant color and plush seating invite relaxation and joy.",
         "url": "../../../images/products/yellow-comfort-couch",
-        "room": "Bathroom",
-        "color": "white"
+        "room": "Living Room",
+        "color": "yellow"
       },
       {
         "price": 120,
@@ -446,49 +460,49 @@
         "description": "Introducing the Sleek Elegance Black Chair, a versatile piece that combines modern design with timeless sophistication. This chair not only enhances your interior decor but also provides a comfortable and stylish seating solution for any room.",
         "url": "../../../images/products/graphic-one",
         "room": "Living Room",
-        "color": "black"
+        "color": "wooden"
       },
       {
         "price": 250,
-        "type": "desk",
-        "name": "Tomo side table",
-        "description": "Upgrade your workspace with the Executive Comfort Office Chair, a blend of ergonomic design and contemporary style. This chair not only enhances your productivity but also adds a touch of sophistication to your office.",
+        "type": "lamp",
+        "name": "DAKWA Nordic Table Desktop Lamp",
+        "description": "The elegant sleek look of this contemporary lamp elevates the aesthetic of your home. This modern table lamp is best for bedroom, living room, baby room, office, yoga studio lighting, nursery, dresser, coffee table, college dorm, cafe, bookcase in your library or den.",
         "url": "../../../images/products/graphic-two",
         "room": "Living Room",
         "color": "black"
       },
       {
         "price": 680,
-        "type": "desk",
-        "name": "Tomo side table",
-        "description": "Introducing the Classic Comfort Upholstered Chair, a timeless piece that combines enduring comfort with a touch of elegance. Crafted with attention to detail, this chair brings both style and relaxation to your home.",
-        "url": "../../../images/products/graphic-seven",
+        "type": "vase",
+        "name": "Love in Bloom vase",
+        "description": "Seletti embraces both artistic originality and Italian excellence to produce a homeware range that caters to a unique and fun lifestyle. This Love in Bloom vase is crafted from fine white porcelain and shaped like an anatomical heart.",
+        "url": "../../../images/products/graphic-five",
         "room": "Living Room",
-        "color": "black"
+        "color": "white"
       },
       {
         "price": 220,
-        "type": "desk",
-        "name": "Tomo side table",
-        "description": "Transform your living space into a haven of comfort and style with our Comfort Haven 3-Seater Sofa. This versatile sofa offers the perfect combination of relaxation and aesthetics, making it the ideal centerpiece for your home.",
+        "type": "chair",
+        "name": "Metal Stool - Black",
+        "description": "Transform your living space into a haven of comfort and style with our Comfort Metal Stool - Black. This classic metal stool is perfect for seating those extra guests. Its simple style means it will look fabulous in and any kitchen or dining room.",
         "url": "../../../images/products/graphic-four",
         "room": "Living Room",
         "color": "black"
       },
       {
         "price": 1550,
-        "type": "desk",
-        "name": "Tomo side table",
-        "description": "Introducing our Classic Wooden Dining Chair, a timeless piece that combines rustic charm with enduring functionality. Crafted with precision and care, this chair offers both comfort and a touch of nostalgia to your dining or living space.",
+        "type": "candle",
+        "name": "Ordinate Bubble Candle",
+        "description": "Candle: made of 100% environmentally friendly, unscented soy wax and beeswax. Thanks to the high-quality composition, the candle burns evenly and has a burning time of up to 10 hours.",
         "url": "../../../images/products/graphic-six",
         "room": "Living Room",
         "color": "black"
       },
       {
         "price": 750,
-        "type": "desk",
-        "name": "Tomo side table",
-        "description": "Upgrade your seating experience with the Modern Elegance Upholstered Chair, a harmonious blend of contemporary design and luxurious comfort. This chair not only exudes sophistication but also provides a cozy spot to unwind and Living Room.",
+        "type": "candle",
+        "name": "Small Ordinate Bubble Candle",
+        "description": "Candle: made of 100% environmentally friendly, unscented soy wax and beeswax. Thanks to the high-quality composition, the candle burns evenly and has a burning time of up to 10 hours.",
         "url": "../../../images/products/graphic-six",
         "room": "Living Room",
         "color": "black"
@@ -496,20 +510,128 @@
       {
         "price": 300,
         "type": "desk",
-        "name": "Tomo side table",
-        "description": "Illuminate your living space with a touch of contemporary elegance using our Contemporary Elegance Table Lamp. This exquisite lamp not only provides warm and inviting lighting but also adds a dash of sophistication to your home decor.",
+        "name": "BURVIK tea table",
+        "description": "Enhance your tea time ambiance with a touch of contemporary elegance using our BURVIK Tea Table. This exquisite table not only provides a perfect setting for enjoying your favorite brew but also adds a dash of sophistication to your living space.",
         "url": "../../../images/products/graphic-seven",
         "room": "Living Room",
         "color": "black"
       },
       {
         "price": 50,
-        "type": "desk",
-        "name": "Tomo side table",
-        "description": "Create a serene outdoor oasis with our Elegant Garden Retreat Chair. Designed for both comfort and style, this chair allows you to Living Room and enjoy your garden in tranquility.",
+        "type": "chair",
+        "name": "LINEA RMT6",
+        "description": "The Linea RMT6 chair was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
         "url": "../../../images/products/graphic-eight",
         "room": "Living Room",
         "color": "black"
+      },
+      {
+        "price": 299,
+        "type": "cabinet",
+        "name": "Cabinet",
+        "description": "The cabinet was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/cabinet",
+        "room": "Kitchen",
+        "color": "white"
+      },
+      {
+        "price": 49,
+        "type": "chair",
+        "name": "Cabinet",
+        "description": "The chair was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/chair",
+        "room": "Kitchen",
+        "color": "black"
+      },
+      {
+        "price": 29,
+        "type": "other",
+        "name": "Dish drainer",
+        "description": "The dish drainer was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/dish-drainer",
+        "room": "Kitchen",
+        "color": "black"
+      },
+      {
+        "price": 29,
+        "type": "kitchen",
+        "name": "Kitchen",
+        "description": "The kitchen was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/kitchen-1",
+        "room": "Kitchen",
+        "color": "wooden"
+      },
+      {
+        "price": 19,
+        "type": "other",
+        "name": "Lampshade",
+        "description": "The kitchen was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/lampshade",
+        "room": "Kitchen",
+        "color": "wooden"
+      },
+      {
+        "price": 399,
+        "type": "armoire",
+        "name": "Armoire",
+        "description": "The kitchen was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/armoire",
+        "room": "Bedroom",
+        "color": "white"
+      },
+      {
+        "price": 399,
+        "type": "armoire",
+        "name": "Armoire",
+        "description": "The kitchen was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/armoire-2",
+        "room": "Bedroom",
+        "color": "white"
+      },
+      {
+        "price": 399,
+        "type": "bed",
+        "name": "Bed frame",
+        "description": "The kitchen was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/bed-frame",
+        "room": "Bedroom",
+        "color": "white"
+      },
+      {
+        "price": 399,
+        "type": "chest",
+        "name": "Chest of drawers",
+        "description": "The kitchen was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/chest-of-drawers",
+        "room": "Bedroom",
+        "color": "white"
+      },
+      {
+        "price": 15,
+        "type": "other",
+        "name": "Bathroom set",
+        "description": "The kitchen was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/bathroom-set",
+        "room": "Bathroom",
+        "color": "black"
+      },
+      {
+        "price": 299,
+        "type": "Cabinet",
+        "name": "Cabinet with washbasin",
+        "description": "The kitchen was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/cabinet-with-washbasin",
+        "room": "Bathroom",
+        "color": "wooden"
+      },
+      {
+        "price": 199,
+        "type": "Cabinet",
+        "name": "Wash cabinet",
+        "description": "The kitchen was designed by master cabinetmaker Rudi Merz in 2011. Its most recognisable element is the distinctive, horseshoe-shaped back- and armrest that has been made using meticulously crafted finger joints. The chair is made of northern European ash with an oiled or stained finish. The wide, curved and upholstered seat ensures good seating comfort.",
+        "url": "../../../images/products/wash-cabinet",
+        "room": "Bathroom",
+        "color": "white"
       }
     ]
   }

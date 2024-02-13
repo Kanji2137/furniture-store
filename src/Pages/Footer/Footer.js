@@ -11,9 +11,10 @@ function Footer() {
                     </div>
                     <div className="logo-des">
                         <p>
-                            The bicycle service located at 54 Druid St is the
-                            perfect destination if you seek professionalism and
-                            expertise in bike repairs.
+
+                            The furniture emporium situated at 54 Druid St is your
+                            ultimate stop if you're in search of professionalism
+                            and expertise in furniture solutions.
                         </p>
                         <Link to="/about" className="footer__btn-know">
                             Know More
@@ -42,14 +43,17 @@ function Footer() {
                         <h3>Links</h3>
                     </div>
                     <div className="footer__link-des">
-                        <Link to="/home" className="footer-links">
+                        <Link to="/" className="footer-links">
                             Home
                         </Link>
                         <Link to="/about" className="footer-links">
                             About
                         </Link>
-                        <Link to="/service" className="footer-links">
-                            Service
+                        <Link to="/shop" className="footer-links">
+                            Catalog
+                        </Link>
+                        <Link to="/contact" className="footer-links">
+                            Contact
                         </Link>
                     </div>
                 </div>
@@ -71,7 +75,7 @@ function Footer() {
             </div>
             <div className="footer__copyright">
                 <hr />
-                <p>© Copyright 2023 Edge.</p>
+                <p>© Copyright 2024 Edge.</p>
             </div>
         </footer>
     );

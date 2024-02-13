@@ -17,6 +17,7 @@ import CartPage from "../CartPage/CartPage";
 import PaymentPage from "../PaymentPage/PaymentPage";
 import AboutPage from "../AboutPage/AboutPage";
 import Inspirations from "../Inspirations/Inspirations";
+import ContactPage from "../ContactPage/ContactPage";
 
 import ScrollToTop from "../../Components/ScrollToTop";
 
@@ -107,6 +108,7 @@ function Navbar() {
             <Route path="/product" element={<ProductPage/>}/>
             <Route path="/about" element={<AboutPage/>}/>
             <Route path="/inspirations" element={<Inspirations/>}/>
+            <Route path="/contact" element={<ContactPage/>}/>
           </Routes>
           <Footer/>
         </div>

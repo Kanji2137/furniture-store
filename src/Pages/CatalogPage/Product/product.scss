@@ -65,3 +65,8 @@
     width: calc(50% - 1rem / 2);
   }
 }
+@media (max-width: 500px) {
+  .product {
+    width: 100%;
+  }
+}
