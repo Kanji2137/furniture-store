@@ -1,4 +1,4 @@
-# demo: https://furniture-store.netlify.app/
+# demo: https://master--edgecraft.netlify.app/
 
 ### `to install this app on your computer you need npm`
 
